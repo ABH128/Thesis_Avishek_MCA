@@ -99,5 +99,34 @@ We now enumerate some of the properties a fraud detection system should have in 
 
 \end{itemize}
 
+This means that there should be a decision layer on top of the fraud detection system. The decision layer decides what action to take when fraudulent behaviour is detected via the fraud detection system, taking into account factors like the amount of the transaction and the quality of the customer doing the transaction 
+
+\chapter{ARTIFICIAL NEURAL NETWORKS}
+\section{Definition}
+
+Neural Network exists in many ways and diffeentforms. The type of neural network we will discuss in this paper is the Feed Forward Multilayer Perceptron. A feedforward multilayer perceptron consists of different layers of perceptrons that are interconnected by a set of weighted connections We can distinguish three types of layers:
+
+\subsection{Input}
+Input layer Receives input from an input stream, which can be database or some device or something else.
+
+\subsection{Hidden Layer}
+Is hidden from the outside world and receives input only from the input layer or another hidden layer
+
+\subsection{Output Layer}
+Connects the network to the outside world again and provides the final output of the network
+\paragraph{}
+A feed forward multilayer perceptron has no cycles and there is full connectivity between the perceptions of two consecutive layers. Signals can be propagated in two directions: function signals are propagated forwards, i.e. from input laver through the hidden layer(s) to the output layer and error signals are propagated backwards, i.e. from output layer through the hidden layer(s) to the input layer.
+
+\section{Learning}
+The type of learning we will discuss is commonly called supervised learning or error correction learning. The algorithm that we have used to do this is called Back Propagation of Error signals or in short Backprop. Every iteration of the algorith consists of two pases: 
+
+\subsection{Forward Pass: }
+Forward pass every perceptron calculates the weighted linear combination of all its inputs and applies to the result of this summing junction an activation function. The result of the activation function provides the perceptron of its output value.
+
+\subsection{Backward Pass: }
+ At the output layer of the network we calculate the error with respect to the desired output value for a certain pattern. This error is propagated backwards through the network enforcing a correction on the weights of all connections in the network. This technique is based on the observation that all perceptrons in the network have a shared  responsibility for the error that has been calculated at the output layer.
+
+
+
 \end{document}
 
