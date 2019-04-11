@@ -8,7 +8,7 @@
 
 \contentsline {chapter}{Contents}{v}{dummy.9}
 \contentsline {chapter}{\numberline {1}Intoduction}{2}{chapter.11}
-\contentsline {chapter}{\numberline {2}DIFFERENT TYPES OF FRAUD TECHNIQUES }{3}{chapter.12}
+\contentsline {chapter}{\numberline {2}DIFFERENT TYPES OF FRAUD TECHNIQUES}{3}{chapter.12}
 \contentsline {paragraph}{}{3}{section*.13}
 \contentsline {section}{\numberline {2.1}Card Related Frauds}{3}{section.14}
 \contentsline {paragraph}{}{3}{section*.15}
@@ -33,10 +33,18 @@
 \contentsline {paragraph}{}{8}{section*.34}
 \contentsline {chapter}{\numberline {4}ARTIFICIAL NEURAL NETWORKS}{10}{chapter.35}
 \contentsline {section}{\numberline {4.1}Definition}{10}{section.36}
-\contentsline {subsection}{\numberline {4.1.1}Input}{10}{subsection.37}
-\contentsline {subsection}{\numberline {4.1.2}Hidden Layer}{10}{subsection.38}
+\contentsline {subsection}{\numberline {4.1.1}Input}{11}{subsection.37}
+\contentsline {subsection}{\numberline {4.1.2}Hidden Layer}{11}{subsection.38}
 \contentsline {subsection}{\numberline {4.1.3}Output Layer}{11}{subsection.39}
 \contentsline {paragraph}{}{11}{section*.40}
-\contentsline {section}{\numberline {4.2}Learning}{11}{section.41}
-\contentsline {subsection}{\numberline {4.2.1}Forward Pass: }{11}{subsection.42}
-\contentsline {subsection}{\numberline {4.2.2}Backward Pass: }{11}{subsection.43}
+\contentsline {section}{\numberline {4.2}Biological Neuron}{11}{section.41}
+\contentsline {subsection}{\numberline {4.2.1}Schematic Diagram}{12}{subsection.42}
+\contentsline {subsection}{\numberline {4.2.2}Working of a Biological Neuron}{12}{subsection.43}
+\contentsline {section}{\numberline {4.3}ANN versus BNN}{12}{section.44}
+\contentsline {section}{\numberline {4.4}Model of Artificial Neural Network}{13}{section.46}
+\contentsline {section}{\numberline {4.5}NETWORK TOPOLOGY}{14}{section.47}
+\contentsline {subsection}{\numberline {4.5.1}Feedforword Network}{14}{subsection.48}
+\contentsline {subsection}{\numberline {4.5.2}Feedback Network}{14}{subsection.49}
+\contentsline {section}{\numberline {4.6}Learning}{15}{section.50}
+\contentsline {subsection}{\numberline {4.6.1}Forward Pass: }{15}{subsection.51}
+\contentsline {subsection}{\numberline {4.6.2}Backward Pass: }{15}{subsection.52}

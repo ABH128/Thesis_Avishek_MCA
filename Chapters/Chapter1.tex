@@ -1,5 +1,8 @@
 % Chapter Template
+
 \documentclass{report}
+\usepackage{graphicx}
+%\graphicspath{ {Pictures/} }
 \begin{document}
 \chapter{Intoduction} % Main chapter title
 
@@ -26,8 +29,7 @@ The advent of credit cards and their increasing functionality have not only give
 
 %Tables can be added like this
 
-\chapter{DIFFERENT TYPES OF FRAUD TECHNIQUES
-}
+\chapter{DIFFERENT TYPES OF FRAUD TECHNIQUES}
 
 There are three classes of frauds namely card related, merchant related and internet frauds. Some of them are listed below
 \paragraph{}
@@ -103,8 +105,12 @@ This means that there should be a decision layer on top of the fraud detection s
 
 \chapter{ARTIFICIAL NEURAL NETWORKS}
 \section{Definition}
+Artificial Neural Network (ANN) is an efficient computing system whose central theme is borrowed from the analogy of biological neural networks. ANN acquires a large collection of units that are interconnected in some pattern to allow communication between the units. These units, referred to as nodes or neurons, are simple processors which operate in parallel.
+Every neuron is connected with other neuron through a connection link. Each connection link is associated with a weight that has information about the input signal. This is the most useful information for neurons to solve a particular problem because the weight usually excites or inhibits the signal that is being communicated. Each neuron has an internal state, which is called an activation signal. Output signals, which are produced after combining the input signals and activation rule, may be sent to other units.
 
-Neural Network exists in many ways and diffeentforms. The type of neural network we will discuss in this paper is the Feed Forward Multilayer Perceptron. A feedforward multilayer perceptron consists of different layers of perceptrons that are interconnected by a set of weighted connections We can distinguish three types of layers:
+
+
+Neural Network exists in many ways and diffeent forms. The type of neural network we will discuss in this paper is the Feed Forward Multilayer Perceptron. A feedforward multilayer perceptron consists of different layers of perceptrons that are interconnected by a set of weighted connections We can distinguish three types of layers:
 
 \subsection{Input}
 Input layer Receives input from an input stream, which can be database or some device or something else.
@@ -117,6 +123,176 @@ Connects the network to the outside world again and provides the final output of
 \paragraph{}
 A feed forward multilayer perceptron has no cycles and there is full connectivity between the perceptions of two consecutive layers. Signals can be propagated in two directions: function signals are propagated forwards, i.e. from input laver through the hidden layer(s) to the output layer and error signals are propagated backwards, i.e. from output layer through the hidden layer(s) to the input layer.
 
+\section{Biological Neuron}
+A nerve cell (neuron) is a special biological cell that processes information. According to an estimation, there are huge number of neurons, approximately $10^{11}$ with numerous interconnections, approximately $10^{15}$
+\subsection{Schematic Diagram}
+
+%\begin{figure}[]
+%\centering
+%\includegraphics[height=7cm]{Neuron3.png}
+%\caption{Biological Neuron}
+%\label{fig5}
+%\end{figure}
+
+\subsection{Working of a Biological Neuron}
+
+As shown in the above diagram, a typical neuron consists of the following four parts with the help of which we can explain its working −
+
+\begin{itemize}
+\item \textbf{Dendrites: } They are tree-like branches, responsible for receiving the information from other neurons it is connected to. In other sense, we can say that they are like the ears of neuron.
+
+\item \textbf{Soma: } It is the cell body of the neuron and is responsible for processing of information, they have received from dendrites.
+
+\item \textbf{Axon: } It is just like a cable through which neurons send the information.
+
+\item \textbf{Synapses: } It is the connection between the axon and other neuron dendrites.
+
+\end{itemize}
+
+\section{ANN versus BNN}
+Before taking a look at the differences between Artificial Neural Network (ANN) and Biological Neural Network (BNN), let us take a look at the similarities based on the terminology between these two.
+
+
+
+\begin{center}
+\resizebox{1.1\textwidth}{!}{
+\begin{tabular}{ |c|c| } 
+ \hline
+ \textbf{Biological neural Network (BNN)} & \textbf{Artificial Neural Network (ANN)}  \\ 
+ \hline 
+ Soma & Node  \\ 
+ Dendrites & Input  \\ 
+ Synapse & Weights or Interconnections\\
+ Axon & Output\\
+ \hline
+\end{tabular}
+}
+\end{center}
+
+The following table shows the comparison between ANN and BNN based on some criteria mentioned.
+
+
+
+
+
+\begin{table}[htbp]
+\resizebox{1.1\textwidth}{!}{
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Criteria} & \textbf{BNN} & \textbf{ANN} \\ \hline
+\textbf{Processing} & Massively parallel, Slow but superior than ANN & Massively Parallel, Fast but inferior than BNN \\ \hline
+\textbf{Size} & 1011 neurons and 1015 interconnections & \begin{tabular}[c]{@{}l@{}}102 to 104 nodes (mainly depends on the type of \\ application and network designer)\end{tabular} \\ \hline
+\textbf{Learning} & They can tolerate ambiguity & \begin{tabular}[c]{@{}l@{}}Very precise, structured and formatted data is \\ required to tolerate ambiguity\end{tabular} \\ \hline
+\textbf{Fault Tolerance} & Performance degrade with even partial damage & \begin{tabular}[c]{@{}l@{}}It is capable of robust performance, hence has\\  the potential to be fault tolerant\end{tabular} \\ \hline
+\textbf{Storage Capacity} & Stores the information in the synapse & \begin{tabular}[c]{@{}l@{}}Stores the information in continuous memory \\ locations\end{tabular} \\ \hline
+\end{tabular}}
+\end{table}
+
+
+
+\section{Model of Artificial Neural Network}
+The following diagram represents the general model of ANN followed by its processing.
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/ann_model.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+For the above general model of artificial neural network, the net input can be calculated as follows −
+
+\[Y_{in} = x_{1}*w_{1} + x_{2}*w_{2} + x_{3}*w_{3} + .....+ X_{n}*w_{n}\]
+
+i.e., net input
+
+\[y_{in} = \sum_{i}^{n} x_{i}*w_{i}\]
+
+The output can be calculated by applying the activation function over the net input.
+\[Y = F(Y_{in})\]
+Output = function (net input calculated)
+
+Processing of ANN depends upon the following three building blocks −
+
+\begin{itemize}
+\item Network Topology
+\item Adjustments of Weights or Learning
+\item Activation Functions
+
+\end{itemize}
+
+\section{NETWORK TOPOLOGY}
+A network topology is the arrangement of a network along with its nodes and connecting lines. According to the topology, ANN can be classified as the following kinds −
+
+\subsection{Feedforword Network}
+It is a non-recurrent network having processing units/nodes in layers and all the nodes in a layer are connected with the nodes of the previous layers. The connection has different weights upon them. There is no feedback loop means the signal can only flow in one direction, from input to output. It may be divided into the following two types −
+
+\begin{itemize}
+\item \textbf{Single layer feedforward network: } The concept is of feedforward ANN having only one weighted layer. In other words, we can say the input layer is fully connected to the output layer.
+
+\end{itemize}
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Single layer feedforward network.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+\begin{itemize}
+\item \textbf{Multi layer feedforward network: } The concept is of feedforward ANN having more than one weighted layer. As this network has one or more layers between the input and the output layer, it is called hidden layers.
+
+
+\end{itemize}
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Multilayer feedforward network.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+\subsection{Feedback Network}
+As the name suggests, a feedback network has feedback paths, which means the signal can flow in both directions using loops. This makes it a non-linear dynamic system, which changes continuously until it reaches a state of equilibrium. It may be divided into the following types −
+
+\begin{itemize}
+\item \textbf{Recurrent networks} They are feedback networks with closed loops. Following are the two types of recurrent networks.
+
+\item \textbf{Fully recurrent network} It is the simplest neural network architecture because all nodes are connected to all other nodes and each node works as both input and output.
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Fully recurrent network.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+\item \textbf{Jordan network} It is a closed loop network in which the output will go to the input again as feedback as shown in the following diagram.
+
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Jordan network.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+\end{itemize}
+
+%\begin{table}[htbp]
+%\resizebox{1.1\textwidth}{!}{
+%\begin{tabular}{|l|l|l|}
+%\hline
+%Criteria & BNN & ANN \\ \hline
+%Processing & Massively parallel, Slow but superior than ANN & Massively Parallel, Fast but inferior than BNN \\ \hline
+% &  &  \\ \hline
+% &  &  \\ \hline
+% &  &  \\ \hline
+% &  &  \\ \hline
+%\end{tabular}}
+%\end{table}
+
+
 \section{Learning}
 The type of learning we will discuss is commonly called supervised learning or error correction learning. The algorithm that we have used to do this is called Back Propagation of Error signals or in short Backprop. Every iteration of the algorith consists of two pases: 
 
@@ -126,6 +302,27 @@ Forward pass every perceptron calculates the weighted linear combination of all 
 \subsection{Backward Pass: }
  At the output layer of the network we calculate the error with respect to the desired output value for a certain pattern. This error is propagated backwards through the network enforcing a correction on the weights of all connections in the network. This technique is based on the observation that all perceptrons in the network have a shared  responsibility for the error that has been calculated at the output layer.
 
+
+%\begin{figure}[]
+%\centering
+%\includegraphics[height=7cm]{Pictures/temp.png}
+%\caption{Splitting of the input space (X1 x X2) by M5' model tree algorithm}
+%\label{fig5}
+%\end{figure}
+
+%\begin{figure}[]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Neuron3.png}
+%\caption{Splitting of the input space (X1 x X2) by %M5' model tree algorithm}
+%\label{fig5}
+%\end{figure}
+
+%\begin{figure}[]
+%\centering
+%\includegraphics[height=7cm]{Pictures/neural-%network.png}
+%\caption{Splitting of the input space (X1 x X2) by %M5' model tree algorithm}
+%\label{fig5}
+%\end{figure}
 
 
 \end{document}
