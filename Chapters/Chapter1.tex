@@ -279,6 +279,67 @@ As the name suggests, a feedback network has feedback paths, which means the sig
 
 \end{itemize}
 
+\section{Adjustments of Weights or Learning}
+Learning, in artificial neural network, is the method of modifying the weights of connections between the neurons of a specified network. Learning in ANN can be classified into three categories namely supervised learning, unsupervised learning, and reinforcement learning.
+\subsection{Supervised Learning}
+
+As the name suggests, this type of learning is done under the supervision of a teacher. This learning process is dependent.
+\paragraph{}
+During the training of ANN under supervised learning, the input vector is presented to the network, which will give an output vector. This output vector is compared with the desired output vector. An error signal is generated, if there is a difference between the actual output and the desired output vector. On the basis of this error signal, the weights are adjusted until the actual output is matched with the desired output.
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Supervised Learning.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+\subsection{Unsupervised Learning}
+As the name suggests, this type of learning is done without the supervision of a teacher. This learning process is independent.
+\paragraph{}
+During the training of ANN under unsupervised learning, the input vectors of similar type are combined to form clusters. When a new input pattern is applied, then the neural network gives an output response indicating the class to which the input pattern belongs.
+There is no feedback from the environment as to what should be the desired output and if it is correct or incorrect. Hence, in this type of learning, the network itself must discover the patterns and features from the input data, and the relation for the input data over the output.
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Unsupervised Learning.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+\subsection{Reinforcement Learning}
+
+As the name suggests, this type of learning is used to reinforce or strengthen the network over some critic information. This learning process is similar to supervised learning, however we might have very less information.
+\paragraph{}
+During the training of network under reinforcement learning, the network receives some feedback from the environment. This makes it somewhat similar to supervised learning. However, the feedback obtained here is evaluative not instructive, which means there is no teacher as in supervised learning. After receiving the feedback, the network performs adjustments of the weights to get better critic information in future.
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[height=7cm]{Pictures/Reinforcement Learning.png}
+%\caption{}
+%\label{fig5}
+%\end{figure}
+
+
+\section{Activation Functions}
+It may be defined as the extra force or effort applied over the input to obtain an exact output. In ANN, we can also apply activation functions over the input to get the exact output. Followings are some activation functions of interest −
+
+\subsection{Linear Activation Function}
+It is also called the identity function as it performs no input editing. It can be defined as −
+\[f(x) = x\]
+
+\subsection{Sigmoid Activation Function}
+It is of two type as follows −
+
+\begin{itemize}
+\item \textbf{Binary sigmoidal function} This activation function performs input editing between 0 and 1. It is positive in nature. It is always bounded, which means its output cannot be less than 0 and more than 1. It is also strictly increasing in nature, which means more the input higher would be the output. It can be defined as
+\[f(x) = \frac{1}{1+e^{-x}}\]
+
+\item \textbf{Bipolar sigmoidal function} This activation function performs input editing between -1 and 1. It can be positive or negative in nature. It is always bounded, which means its output cannot be less than -1 and more than 1. It is also strictly increasing in nature like sigmoid function. It can be defined as\[f(x) = \frac{2}{1+e^{-x}}-1 = \frac{1-e^{x}}{1+e^{x}}\]
+
+
+\end{itemize}
+
 %\begin{table}[htbp]
 %\resizebox{1.1\textwidth}{!}{
 %\begin{tabular}{|l|l|l|}

@@ -45,6 +45,16 @@
 \contentsline {section}{\numberline {4.5}NETWORK TOPOLOGY}{14}{section.47}
 \contentsline {subsection}{\numberline {4.5.1}Feedforword Network}{14}{subsection.48}
 \contentsline {subsection}{\numberline {4.5.2}Feedback Network}{14}{subsection.49}
-\contentsline {section}{\numberline {4.6}Learning}{15}{section.50}
-\contentsline {subsection}{\numberline {4.6.1}Forward Pass: }{15}{subsection.51}
-\contentsline {subsection}{\numberline {4.6.2}Backward Pass: }{15}{subsection.52}
+\contentsline {section}{\numberline {4.6}Adjustments of Weights or Learning}{15}{section.50}
+\contentsline {subsection}{\numberline {4.6.1}Supervised Learning}{15}{subsection.51}
+\contentsline {paragraph}{}{15}{section*.52}
+\contentsline {subsection}{\numberline {4.6.2}Unsupervised Learning}{15}{subsection.53}
+\contentsline {paragraph}{}{16}{section*.54}
+\contentsline {subsection}{\numberline {4.6.3}Reinforcement Learning}{16}{subsection.55}
+\contentsline {paragraph}{}{16}{section*.56}
+\contentsline {section}{\numberline {4.7}Activation Functions}{16}{section.57}
+\contentsline {subsection}{\numberline {4.7.1}Linear Activation Function}{16}{subsection.58}
+\contentsline {subsection}{\numberline {4.7.2}Sigmoid Activation Function}{17}{subsection.59}
+\contentsline {section}{\numberline {4.8}Learning}{17}{section.60}
+\contentsline {subsection}{\numberline {4.8.1}Forward Pass: }{17}{subsection.61}
+\contentsline {subsection}{\numberline {4.8.2}Backward Pass: }{18}{subsection.62}
