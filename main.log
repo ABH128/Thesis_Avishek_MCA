@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.8)  12 APR 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.8)  6 MAY 2019 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,6 +1401,42 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:c' multiply defined.
+
+
+LaTeX Warning: Label `fig:d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:d' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1567,7 +1603,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Pictures/logo.jpg, id=229, 225.84375pt x 225.84375pt>
+<Pictures/logo.jpg, id=313, 225.84375pt x 225.84375pt>
 File: Pictures/logo.jpg Graphic file (type jpg)
 <use Pictures/logo.jpg>
 Package pdftex.def Info: Pictures/logo.jpg  used on input line 92.
@@ -1612,11 +1648,11 @@ Package pdftex.def Info: Pictures/logo.jpg  used on input line 112.
 (./main.toc [5
 
 
-])
+] [6])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [6] (./Chapters/Chapter1.tex
+ [7] (./Chapters/Chapter1.tex
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1626,10 +1662,7 @@ Type  H <return>  for immediate help.
                                                   
 l.3 \documentclass
                   {report}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1638,11 +1671,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.4 \usepackage
-               {comment}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+               {subfigure}
+? 
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1651,11 +1681,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.5 \usepackage
-               {graphicx}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+               {comment}
+? 
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1663,12 +1690,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 \begin{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.6 \usepackage
+               {graphicx}
+? 
 
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{document}
+                    
+? 
 [1
 
 
@@ -1686,43 +1720,42 @@ Chapter 2.
 ------------------------------------------------------------------------------
 
 Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 38.
+(hyperref)                than one, level fixed on input line 39.
 
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 41.
+(hyperref)                than one, level fixed on input line 42.
 
 [3
 
 ] [4]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 61.
+(hyperref)                than one, level fixed on input line 60.
 
-[5]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 68.
+(hyperref)                than one, level fixed on input line 67.
 
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 70.
+(hyperref)                than one, level fixed on input line 69.
 
-[6] [7]
+[5] [6] [7]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 PROBLEMS WITH CREDIT CARD FRAUD DETECTION
 ------------------------------------------------------------------------------
 
 Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 86.
+(hyperref)                than one, level fixed on input line 85.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
  [8
 
 ] [9]
@@ -1735,12 +1768,12 @@ Chapter 4.
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 125.
+(hyperref)                than one, level fixed on input line 124.
 
-<Pictures/Neuron3.png, id=372, 313.17pt x 164.615pt>
+<Pictures/Neuron3.png, id=482, 313.17pt x 164.615pt>
 File: Pictures/Neuron3.png Graphic file (type png)
 <use Pictures/Neuron3.png>
-Package pdftex.def Info: Pictures/Neuron3.png  used on input line 133.
+Package pdftex.def Info: Pictures/Neuron3.png  used on input line 132.
 (pdftex.def)             Requested size: 378.91774pt x 199.16928pt.
 
 ! Package inputenc Error: Unicode char − (U+2212)
@@ -1750,26 +1783,45 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 ...p of which we can explain its working −
+l.139 ...p of which we can explain its working −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 [11] [12 <./Pictures/Neuron3.png>]
-Overfull \hbox (42.77097pt too wide) in paragraph at lines 159--171
+Overfull \hbox (42.77097pt too wide) in paragraph at lines 158--170
  [] 
  []
 
 
-Overfull \hbox (42.76555pt too wide) in paragraph at lines 180--190
-[][] 
+Overfull \hbox (72.46663pt too wide) in paragraph at lines 180--191
+[]\OT1/cmr/m/n/12 htbp] [] 
  []
 
-<Pictures/ann_model.png, id=388, 733.74126pt x 452.69125pt>
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.191 \end{table}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\color@endbox ->\egroup 
+                        
+l.191 \end{table}
+                 
+? 
+
+! LaTeX Error: \begin{document} on input line 8 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \end{table}
+                 
+? 
+<Pictures/ann_model.png, id=498, 733.74126pt x 452.69125pt>
 File: Pictures/ann_model.png Graphic file (type png)
 <use Pictures/ann_model.png>
-Package pdftex.def Info: Pictures/ann_model.png  used on input line 199.
+Package pdftex.def Info: Pictures/ann_model.png  used on input line 200.
 (pdftex.def)             Requested size: 322.81357pt x 199.16928pt.
 
 ! Package inputenc Error: Unicode char − (U+2212)
@@ -1779,12 +1831,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 ...et input can be calculated as follows −
+l.205 ...et input can be calculated as follows −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 [13]
 
 ! Package inputenc Error: Unicode char − (U+2212)
@@ -1794,12 +1843,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 ...n the following three building blocks −
+l.217 ...n the following three building blocks −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 ! Package inputenc Error: Unicode char − (U+2212)
 (inputenc)                not set up for use with LaTeX.
@@ -1808,12 +1854,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ... be classified as the following kinds −
+l.227 ... be classified as the following kinds −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 ! Package inputenc Error: Unicode char − (U+2212)
 (inputenc)                not set up for use with LaTeX.
@@ -1822,34 +1865,31 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 ... divided into the following two types −
+l.230 ... divided into the following two types −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 [14 <./Pictures/ann_model.png>]
 
 LaTeX Warning: File `Pictures/Single layer feedforward network.png' not found o
-n input line 238.
+n input line 239.
 
-<Pictures/Single layer feedforward network.png, id=403, 472.76625pt x 320.19624
+<Pictures/Single layer feedforward network.png, id=513, 472.76625pt x 320.19624
 pt>
 File: Pictures/Single layer feedforward network.png Graphic file (type png)
 <use Pictures/Single layer feedforward network.png>
 Package pdftex.def Info: Pictures/Single layer feedforward network.png  used on
- input line 238.
+ input line 239.
 (pdftex.def)             Requested size: 294.07147pt x 199.16928pt.
 
 LaTeX Warning: File `Pictures/Multilayer feedforward network.png' not found on 
-input line 251.
+input line 252.
 
-<Pictures/Multilayer feedforward network.png, id=404, 623.32875pt x 342.27875pt
+<Pictures/Multilayer feedforward network.png, id=514, 623.32875pt x 342.27875pt
 >
 File: Pictures/Multilayer feedforward network.png Graphic file (type png)
 <use Pictures/Multilayer feedforward network.png>
 Package pdftex.def Info: Pictures/Multilayer feedforward network.png  used on i
-nput line 251.
+nput line 252.
 (pdftex.def)             Requested size: 362.71983pt x 199.16928pt.
 
 ! Package inputenc Error: Unicode char − (U+2212)
@@ -1859,88 +1899,85 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 ...y be divided into the following types −
+l.258 ...y be divided into the following types −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 [15 <./Pictures/Single layer feedforward network.png>]
 
 LaTeX Warning: File `Pictures/Fully recurrent network.png' not found on input l
-ine 266.
+ine 267.
 
-<Pictures/Fully recurrent network.png, id=411, 422.57875pt x 302.12875pt>
+<Pictures/Fully recurrent network.png, id=521, 422.57875pt x 302.12875pt>
 File: Pictures/Fully recurrent network.png Graphic file (type png)
 <use Pictures/Fully recurrent network.png>
 Package pdftex.def Info: Pictures/Fully recurrent network.png  used on input li
-ne 266.
+ne 267.
 (pdftex.def)             Requested size: 278.57397pt x 199.16928pt.
 
-LaTeX Warning: File `Pictures/Jordan network.png' not found on input line 276.
+LaTeX Warning: File `Pictures/Jordan network.png' not found on input line 277.
 
-<Pictures/Jordan network.png, id=412, 783.92876pt x 422.57875pt>
+<Pictures/Jordan network.png, id=522, 783.92876pt x 422.57875pt>
 File: Pictures/Jordan network.png Graphic file (type png)
 <use Pictures/Jordan network.png>
-Package pdftex.def Info: Pictures/Jordan network.png  used on input line 276.
+Package pdftex.def Info: Pictures/Jordan network.png  used on input line 277.
 (pdftex.def)             Requested size: 369.48724pt x 199.16928pt.
 [16 <./Pictures/Multilayer feedforward network.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 289.
+(hyperref)                than one, level fixed on input line 290.
 
 [17 <./Pictures/Fully recurrent network.png> <./Pictures/Jordan network.png>]
 
 LaTeX Warning: File `Pictures/Supervised Learning.png' not found on input line 
-293.
+294.
 
-<Pictures/Supervised Learning.png, id=428, 643.40375pt x 272.01625pt>
+<Pictures/Supervised Learning.png, id=538, 643.40375pt x 272.01625pt>
 File: Pictures/Supervised Learning.png Graphic file (type png)
 <use Pictures/Supervised Learning.png>
 Package pdftex.def Info: Pictures/Supervised Learning.png  used on input line 2
-93.
+94.
 (pdftex.def)             Requested size: 471.12401pt x 199.16928pt.
 
-Overfull \hbox (43.69247pt too wide) in paragraph at lines 293--294
+Overfull \hbox (43.69247pt too wide) in paragraph at lines 294--295
  [] 
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 301.
+(hyperref)                than one, level fixed on input line 302.
 
 
 LaTeX Warning: File `Pictures/Unsupervised Learning.png' not found on input lin
-e 306.
+e 307.
 
-<Pictures/Unsupervised Learning.png, id=429, 543.02875pt x 191.71625pt>
+<Pictures/Unsupervised Learning.png, id=539, 543.02875pt x 191.71625pt>
 File: Pictures/Unsupervised Learning.png Graphic file (type png)
 <use Pictures/Unsupervised Learning.png>
 Package pdftex.def Info: Pictures/Unsupervised Learning.png  used on input line
- 306.
+ 307.
 (pdftex.def)             Requested size: 455.26271pt x 199.18126pt.
 
-Overfull \hbox (27.83118pt too wide) in paragraph at lines 306--307
+Overfull \hbox (27.83118pt too wide) in paragraph at lines 307--308
  [] 
  []
 
 [18 <./Pictures/Supervised Learning.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 315.
+(hyperref)                than one, level fixed on input line 316.
 
 
 LaTeX Warning: File `Pictures/Reinforcement Learning.png' not found on input li
-ne 319.
+ne 320.
 
-<Pictures/Reinforcement Learning.png, id=437, 643.40375pt x 292.09125pt>
+<Pictures/Reinforcement Learning.png, id=546, 643.40375pt x 292.09125pt>
 File: Pictures/Reinforcement Learning.png Graphic file (type png)
 <use Pictures/Reinforcement Learning.png>
 Package pdftex.def Info: Pictures/Reinforcement Learning.png  used on input lin
-e 319.
+e 320.
 (pdftex.def)             Requested size: 438.73595pt x 199.16928pt.
 
-Overfull \hbox (11.30441pt too wide) in paragraph at lines 319--320
+Overfull \hbox (11.30441pt too wide) in paragraph at lines 320--321
  [] 
  []
 
@@ -1952,12 +1989,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.326 ...some activation functions of interest −
+l.327 ...some activation functions of interest −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 ! Package inputenc Error: Unicode char − (U+2212)
 (inputenc)                not set up for use with LaTeX.
@@ -1966,12 +2000,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.329 ...o input editing. It can be defined as −
+l.330 ...o input editing. It can be defined as −
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 [19 <./Pictures/Unsupervised Learning.png>]
 
 ! Package inputenc Error: Unicode char − (U+2212)
@@ -1981,39 +2012,155 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.333 It is of two type as follows −
+l.334 It is of two type as follows −
                                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+? 
+[20 <./Pictures/Reinforcement Learning.png>] [21]
 
-[20 <./Pictures/Reinforcement Learning.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 373.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.385 \end{itemize}
+                   
+? 
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 398.
+
+[22]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 402.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 409.
+
+[23]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Environment Setup And Performance Metrices
+------------------------------------------------------------------------------
+[24
+
+] [25]
+<Pictures/confusion_matrix.png, id=582, 513.92pt x 339.2675pt>
+File: Pictures/confusion_matrix.png Graphic file (type png)
+<use Pictures/confusion_matrix.png>
+Package pdftex.def Info: Pictures/confusion_matrix.png  used on input line 442.
+
+(pdftex.def)             Requested size: 301.6967pt x 199.16928pt.
+ [26 <./Pictures/confusion_matrix.png (PNG copy)>] [27]
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.497 \multirow
+               {5}{*}{\textbf{Algorithms}} & \textbf{} & \textbf{Precesion} ...
+
+? 
+<Pictures/adam.png, id=592, 356.33125pt x 295.1025pt>
+File: Pictures/adam.png Graphic file (type png)
+<use Pictures/adam.png>
+Package pdftex.def Info: Pictures/adam.png  used on input line 521.
+(pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
+<Pictures/sgd.png, id=593, 356.33125pt x 295.1025pt>
+File: Pictures/sgd.png Graphic file (type png)
+<use Pictures/sgd.png>
+Package pdftex.def Info: Pictures/sgd.png  used on input line 522.
+(pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
+<Pictures/adagrad.png, id=594, 356.33125pt x 295.1025pt>
+File: Pictures/adagrad.png Graphic file (type png)
+<use Pictures/adagrad.png>
+Package pdftex.def Info: Pictures/adagrad.png  used on input line 524.
+(pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
+<Pictures/adadelta.png, id=595, 356.33125pt x 295.1025pt>
+File: Pictures/adadelta.png Graphic file (type png)
+<use Pictures/adadelta.png>
+Package pdftex.def Info: Pictures/adadelta.png  used on input line 525.
+(pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
+<Pictures/adam_model_accuracy.png, id=596, 403.5075pt x 279.0425pt>
+File: Pictures/adam_model_accuracy.png Graphic file (type png)
+<use Pictures/adam_model_accuracy.png>
+Package pdftex.def Info: Pictures/adam_model_accuracy.png  used on input line 5
+32.
+(pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
+<Pictures/sgd_model_accuracy.png, id=597, 403.5075pt x 279.0425pt>
+File: Pictures/sgd_model_accuracy.png Graphic file (type png)
+<use Pictures/sgd_model_accuracy.png>
+Package pdftex.def Info: Pictures/sgd_model_accuracy.png  used on input line 53
+3.
+(pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
+<Pictures/adagrad_model_accuracy.png, id=598, 403.5075pt x 279.0425pt>
+File: Pictures/adagrad_model_accuracy.png Graphic file (type png)
+<use Pictures/adagrad_model_accuracy.png>
+Package pdftex.def Info: Pictures/adagrad_model_accuracy.png  used on input lin
+e 535.
+(pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
+<Pictures/adadelta_model_accuracy.png, id=599, 409.53pt x 279.0425pt>
+File: Pictures/adadelta_model_accuracy.png Graphic file (type png)
+<use Pictures/adadelta_model_accuracy.png>
+Package pdftex.def Info: Pictures/adadelta_model_accuracy.png  used on input li
+ne 536.
+(pdftex.def)             Requested size: 209.44379pt x 142.71002pt.
+<Pictures/adam_model_loss.png, id=600, 396.48125pt x 279.0425pt>
+File: Pictures/adam_model_loss.png Graphic file (type png)
+<use Pictures/adam_model_loss.png>
+Package pdftex.def Info: Pictures/adam_model_loss.png  used on input line 542.
+(pdftex.def)             Requested size: 209.44379pt x 147.40642pt.
+<Pictures/sgd_model_loss.png, id=601, 396.48125pt x 279.0425pt>
+File: Pictures/sgd_model_loss.png Graphic file (type png)
+<use Pictures/sgd_model_loss.png>
+Package pdftex.def Info: Pictures/sgd_model_loss.png  used on input line 543.
+(pdftex.def)             Requested size: 209.44379pt x 147.40642pt.
+<Pictures/adagrad_model_loss.png, id=602, 390.45876pt x 279.0425pt>
+File: Pictures/adagrad_model_loss.png Graphic file (type png)
+<use Pictures/adagrad_model_loss.png>
+Package pdftex.def Info: Pictures/adagrad_model_loss.png  used on input line 54
+5.
+(pdftex.def)             Requested size: 209.44379pt x 149.6801pt.
+<Pictures/adadelta_model_loss.png, id=603, 403.5075pt x 279.0425pt>
+File: Pictures/adadelta_model_loss.png Graphic file (type png)
+<use Pictures/adadelta_model_loss.png>
+Package pdftex.def Info: Pictures/adadelta_model_loss.png  used on input line 5
+46.
+(pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
+[28] [29 <./Pictures/adam.png> <./Pictures/sgd.png> <./Pictures/adagrad.png> <.
+/Pictures/adadelta.png>] [30 <./Pictures/adam_model_accuracy.png> <./Pictures/s
+gd_model_accuracy.png> <./Pictures/adagrad_model_accuracy.png> <./Pictures/adad
+elta_model_accuracy.png>] [31 <./Pictures/adam_model_loss.png> <./Pictures/sgd_
+model_loss.png> <./Pictures/adagrad_model_loss.png> <./Pictures/adadelta_model_
+loss.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 572.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 572.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DCF9D8BB2169B5539345F9FAB3C0BB73;8686.
+(rerunfilecheck)             Checksum: 06A92C5B8C6BB1503C879AB6AAE60479;11597.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 2) entered at line 7 (\begingroup)
 ### simple group (level 1) entered at line 112 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27639 strings out of 492982
- 478764 string characters out of 6134897
- 546461 words of memory out of 5000000
- 30772 multiletter control sequences out of 15000+600000
+ 27793 strings out of 492982
+ 481737 string characters out of 6134897
+ 549461 words of memory out of 5000000
+ 30863 multiletter control sequences out of 15000+600000
  540885 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,15n,45p,10377b,1046s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,45p,10377b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
@@ -2026,10 +2173,10 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on main.pdf (28 pages, 335093 bytes).
+Output written on main.pdf (39 pages, 541709 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
- 499 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 732 words of extra memory for PDF output out of 10000 (max. 10000000)
 

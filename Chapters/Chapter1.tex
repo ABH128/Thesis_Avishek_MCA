@@ -1,6 +1,7 @@
 % Chapter Template
 
 \documentclass{report}
+\usepackage{subfigure}
 \usepackage{comment}
 \usepackage{graphicx}
 %\graphicspath{ {Pictures/} }
@@ -46,9 +47,7 @@ This type of fraud occurs when the valid customer’s personal information is ta
 
 \subsection{Cardholder-Not-Present (CNP):}
 CNP transactions are performed only on the internet that is remotely, in such kind of frauds neither the card nor the cardholder is present at the point-of-sale. This take many types of transactions such as orders made over the phone or Internet, by mail order or fax. In such transactions, retailers are unable to physically check user or identity of the card holder which makes the user unknown and able to disguise their true identity, The details of the credit card are normally copied without the cardholder’s knowledge, collected from the receipts thrown by the customer or obtained by skimming process. Frequently obtained card details are generally used with fabricated personal details to make fraudulent CNP purchases. This means that while the three or four digit card security code (CVV number) on the back of cards can help prevent fraud where card details have been obtained, but when the card is stolen it won’t be helpful.
-
-\subsection{Fake and Counterfeit Cards:}
-This is another type of fraud where the creation of the counterfeit cards, together with lost or stolen cards poses highest threat in credit card frauds. Fraudsters are constantly finding new and more innovative ways to create counterfeit cards. The below mentioned are some of the techniques used for creating false and counterfeit cards.  
+ 
 
 \subsection{Erasing the Magnetic strip:}
 This is the type of fraud where the fraudsters erase the magnetic stripe by using the powerful electromagnet. The fraudsters then tampers with the details on the card so that they match the details of a valid card, which they may have attained, for example, when the fraudster begins to use the card, the cashier will swipe the card through the terminal several times, before realizing that the metallic strip does not work. The cashier will then proceed to manually input the card details into the terminal. This kind of fraud is having high risk because the cashier will be looking at the card closely to read the numbers.
@@ -176,7 +175,9 @@ The following table shows the comparison between ANN and BNN based on some crite
 
 
 
-\begin{table}[htbp]
+\begin{table}
+
+\end{table}htbp]
 \resizebox{1.1\textwidth}{!}{
 \begin{tabular}{|l|l|l|}
 \hline
@@ -364,6 +365,187 @@ Forward pass every perceptron calculates the weighted linear combination of all 
 \subsection{Backward Pass: }
  At the output layer of the network we calculate the error with respect to the desired output value for a certain pattern. This error is propagated backwards through the network enforcing a correction on the weights of all connections in the network. This technique is based on the observation that all perceptrons in the network have a shared  responsibility for the error that has been calculated at the output layer.
 
+\section{Optimization Algorithms Used:}
+\subsection{Adagrad: }
+Adagrad is an algorithm for gradient-based optimization that does just this: It adapts the learning rate to the parameters, performing smaller updates
+(i.e. low learning rates) for parameters associated with frequently occurring features, and larger updates (i.e. high learning rates) for parameters associated with infrequent features. For this reason, it is well-suited for dealing with sparse data.
+\paragraph{}
+\textbf{Pros: }
+\begin{itemize}
+\item Well Suited for dealing with sparse data
+\item Significantly improves the robustness of SGD
+\item Lesser need to manually tune learning rate
+
+\end{itemize}
+
+\paragraph{}
+\textbf{Cons: }
+\begin{itemize}
+
+\end{itemize}
+
+\begin{itemize}
+\item Accumulates squared gradients in denominator. Causes the learning rate to shrink and become infinitesimally small.  
+
+\end{itemize}
+
+
+\subsection{Adadelta: }
+Adadelta is a more robust extension of Adagrad that adapts learning rates based on a moving window of gradient updates, instead of accumulating all past gradients. This way, Adadelta continues learning even when many updates have been done. Compared to Adagrad, in the original version of Adadelta you don't have to set an initial learning rate. In this version, initial learning rate and decay factor can be set, as in most other Keras optimizers.
+
+\paragraph{}
+
+\subsection{Adam: }
+Adaptive Moment Estimation (Adam) is another method that computes adaptive learning rates for each parameter. In addition to storing an exponentially decaying average of past squared gradients similar to momentum. Whereas momentum can be seen as a ball running down a slope, Adam behaves like a heavy ball with friction, which thus prefers flat minima in the error surface.
+\paragraph{}
+
+\subsection{SGD: }
+The word ‘stochastic‘ means a system or a process that is linked with a random probability. Hence, in Stochastic Gradient Descent, a few samples are selected randomly instead of the whole data set for each iteration. In Gradient Descent, there is a term called “batch” which denotes the total number of samples from a dataset that is used for calculating the gradient for each iteration. In typical Gradient Descent optimization, like Batch Gradient Descent, the batch is taken to be the whole dataset. Although, using the whole dataset is really useful for getting to the minima in a less noisy or less random manner, but the problem arises when our datasets get really huge.
+Suppose, you have a million samples in your dataset, so if you use a typical Gradient Descent optimization technique, you will have to use all of the one million samples for completing one iteration while performing the Gradient Descent, and it has to be done for every iteration until the minima is reached. Hence, it becomes computationally very expensive to perform.
+This problem is solved by Stochastic Gradient Descent. In SGD, it uses only a single sample, i.e., a batch size of one, to perform each iteration. The sample is randomly shuffled and selected for performing the iteration.
+
+\paragraph{}
+
+\chapter{Environment Setup And Performance Metrices}
+
+\section{Dataset: }
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172 percent of all transactions.
+It contains only numeric input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+
+\section{Environment: }
+\subsection{Jupyter Notebook: }
+The Jupyter Notebook is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video.
+
+\subsubsection{Components: } The Jupyter Notebook combines three components:
+
+\begin{itemize}
+\item \textbf{The Notebook Web Application: } An interactive web application for writing and running code interactively and authoring notebook documents.
+
+\item \textbf{Kernals: } Separate processes started by the notebook web application that runs users’ code in a given language and returns output back to the notebook web application. The kernel also handles things like computations for interactive widgets, tab completion and introspection.
+
+\item \textbf{Notebook Documents: } Self-contained documents that contain a representation of all content visible in the notebook web application, including inputs and outputs of the computations, narrative text, equations, images, and rich media representations of objects. Each notebook document has its own kernel.
+
+\end{itemize}
+
+\subsection{Operating System: }
+This project is done on Linux Operating Systems.
+
+
+\section{Confusion Matrix: }
+A confusion matrix is a summary of prediction results on a classification problem.
+The number of correct and incorrect predictions are summarized with count values and broken down by each class. This is the key to the confusion matrix.
+The confusion matrix shows the ways in which your classification model is confused when it makes predictions.
+It gives us insight not only into the errors being made by a classifier but more importantly the types of errors that are being made.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[height=7cm]{Pictures/confusion_matrix.png}
+\caption{}
+\label{}
+\end{figure}
+
+\textbf{Definition of the Terms: }
+\begin{itemize}
+\item \textbf{True Positive (TP):} Observation is positive, and is predicted to be positive.
+\item \textbf{False Negative (FN):} Observation is positive, but is predicted negative.
+\item \textbf{True Negative (TN):} Observation is negative, and is predicted to be negative.
+\item \textbf{False Positive (FP):} Observation is negative, and is predicted to be positive.
+\end{itemize}
+
+\subsection{Classification Rate/Accuracy:}
+Classification Rate or Accuracy is given by the relation:
+\[Accuracy = \frac{TP + TN}{TP + TN + FP + FN}\]
+
+\subsection{Recall: }
+Recall can be defined as the ratio of the total number of correctly classified positive examples divide to the total number of positive examples. High Recall indicates the class is correctly recognized (small number of FN).
+
+Recall is given by the relation:
+\[Recall = \frac{TP}{TP + FN}\]
+
+
+\subsection{Precision: }
+To get the value of precision we divide the total number of correctly classified positive examples by the total number of predicted positive examples. High Precision indicates an example labeled as positive is indeed positive (small number of FP).
+Precision is given by the relation:
+
+Recall is given by the relation:
+\[Recall = \frac{TP}{TP + FP}\]
+
+\begin{itemize}
+
+\item \textbf{High recall, low precision:}
+This means that most of the positive examples are correctly recognized (low FN) but there are a lot of false positives.
+
+\item \textbf{Low recall, high precision:}
+This shows that we miss a lot of positive examples (high FN) but those we predict as positive are indeed positive (low FP)
+\end{itemize}
+
+\subsection{F Measure: }
+Since we have two measures (Precision and Recall) it helps to have a measurement that represents both of them. We calculate an F-measure which uses Harmonic Mean in place of Arithmetic Mean as it punishes the extreme values more.
+The F-Measure will always be nearer to the smaller value of Precision or Recall.
+
+\[F-measure = \frac{2 * recall * precision}{recall + precision}\]
+
+
+
+\section{Performance Metrices: }
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[htbp]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\multicolumn{5}{|c|}{\textbf{Performance Measures}} \\ \hline
+\multirow{5}{*}{\textbf{Algorithms}} & \textbf{} & \textbf{Precesion} & \textbf{Recall} & \textbf{F-Score} \\ \cline{2-5} 
+ & \textbf{ADAM} & 0.87 & 0.84 & 0.85 \\ \cline{2-5} 
+ & \textbf{SGD} & 0.88 & 0.86 & 0.87 \\ \cline{2-5} 
+ & \textbf{ADAGARD} & 0.98 & 0.81 & \textbf{0.89} \\ \cline{2-5} 
+ & \textbf{ADADELTA} & 0.62 & 0.8 & 0.7 \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\begin{tabular}{|l|l|}
+\hline
+ & \textbf{Accuracy} \\ \hline
+\textbf{ADAM} & 99.94 \\ \hline
+\textbf{SGD} & 99.95 \\ \hline
+\textbf{ADAGARD} & 99.96 \\ \hline
+\textbf{ADADELTA} & 99.89 \\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{Confusion Metrices: }
+
+\begin{figure}[htbp]
+\centering
+    \subfigure[]{\label{fig:adam}\includegraphics[width=0.49\linewidth]{adam.png}}
+    \subfigure[]{\label{fig:sgd}\includegraphics[width=0.49\linewidth]{sgd.png}} 
+    \\
+    \subfigure[]{\label{fig:adagrad}\includegraphics[width=0.49\linewidth]{adagrad.png}}
+    \subfigure[]{\label{fig:adadelta}\includegraphics[width=0.49\linewidth]{adadelta.png}} 
+  \label{}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+    \subfigure[]{\label{fig:a}\includegraphics[width=0.49\linewidth]{adam_model_accuracy.png}}
+    \subfigure[]{\label{fig:b}\includegraphics[width=0.49\linewidth]{sgd_model_accuracy.png}} 
+    \\
+    \subfigure[]{\label{fig:c}\includegraphics[width=0.49\linewidth]{adagrad_model_accuracy.png}}
+    \subfigure[]{\label{fig:d}\includegraphics[width=0.49\linewidth]{adadelta_model_accuracy.png}} 
+  \label{}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+    \subfigure[]{\label{fig:a}\includegraphics[width=0.49\linewidth]{adam_model_loss.png}}
+    \subfigure[]{\label{fig:b}\includegraphics[width=0.49\linewidth]{sgd_model_loss.png}} 
+    \\
+    \subfigure[]{\label{fig:c}\includegraphics[width=0.49\linewidth]{adagrad_model_loss.png}}
+    \subfigure[]{\label{fig:d}\includegraphics[width=0.49\linewidth]{adadelta_model_loss.png}} 
+  \label{}
+\end{figure}
 
 %\begin{figure}[]
 %\centering

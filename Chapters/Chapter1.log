@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.8)  12 APR 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.8)  6 MAY 2019 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,6 +23,26 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen103
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen104
+\subfiglabelskip=\skip46
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
@@ -49,10 +69,49 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
 )
 (./Chapter1.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -77,30 +136,30 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `Chapter1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
+\scratchcounter=\count92
+\scratchdimen=\dimen107
 \scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
+\nofMPsegments=\count93
+\nofMParguments=\count94
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen108
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks16
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -200,10 +259,10 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [3]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+ [3]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -216,34 +275,34 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [4] [5]
+ [4]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [6
+ [5
 
-] [7]
+] [6]
 Chapter 4.
-[8
+[7
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 128.
+(Font)              <7> on input line 127.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 128.
+(Font)              <5> on input line 127.
 
 
-LaTeX Warning: File `Neuron3.png' not found on input line 133.
+LaTeX Warning: File `Neuron3.png' not found on input line 132.
 
 
 ! Package pdftex.def Error: File `Neuron3.png' not found: using draft setting.
@@ -252,7 +311,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \includegraphics[height=7cm]{Neuron3.png}
+l.132 \includegraphics[height=7cm]{Neuron3.png}
                                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -260,18 +319,46 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
-[9]
-Overfull \hbox (34.49852pt too wide) in paragraph at lines 159--171
+[8]
+Overfull \hbox (34.49852pt too wide) in paragraph at lines 158--170
  [] 
  []
 
 
-Overfull \hbox (34.51424pt too wide) in paragraph at lines 180--190
-[][] 
+Overfull \hbox (74.79207pt too wide) in paragraph at lines 180--191
+[]\OT1/cmr/m/n/10 htbp] [] 
  []
 
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.191 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-LaTeX Warning: File `Pictures/ann_model.png' not found on input line 199.
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.191 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
+LaTeX Warning: File `Pictures/ann_model.png' not found on input line 200.
 
 
 ! Package pdftex.def Error: File `Pictures/ann_model.png' not found: using draf
@@ -281,7 +368,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.199 ...phics[height=7cm]{Pictures/ann_model.png}
+l.200 ...phics[height=7cm]{Pictures/ann_model.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -289,7 +376,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
-[10]
+[9]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
@@ -299,10 +386,10 @@ Missing character: There is no í in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
- [11]
+ [10]
 
 LaTeX Warning: File `Pictures/Single layer feedforward network.png' not found o
-n input line 238.
+n input line 239.
 
 
 ! Package pdftex.def Error: File `Pictures/Single layer feedforward network.png
@@ -312,14 +399,14 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.238 ...res/Single layer feedforward network.png}
+l.239 ...res/Single layer feedforward network.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: File `Pictures/Multilayer feedforward network.png' not found on 
-input line 251.
+input line 252.
 
 
 ! Package pdftex.def Error: File `Pictures/Multilayer feedforward network.png' 
@@ -329,7 +416,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 ...tures/Multilayer feedforward network.png}
+l.252 ...tures/Multilayer feedforward network.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -337,10 +424,10 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
-[12]
+[11]
 
 LaTeX Warning: File `Pictures/Fully recurrent network.png' not found on input l
-ine 266.
+ine 267.
 
 
 ! Package pdftex.def Error: File `Pictures/Fully recurrent network.png' not fou
@@ -350,13 +437,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.266 ...cm]{Pictures/Fully recurrent network.png}
+l.267 ...cm]{Pictures/Fully recurrent network.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `Pictures/Jordan network.png' not found on input line 276.
+LaTeX Warning: File `Pictures/Jordan network.png' not found on input line 277.
 
 
 ! Package pdftex.def Error: File `Pictures/Jordan network.png' not found: using
@@ -366,14 +453,14 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...[height=7cm]{Pictures/Jordan network.png}
+l.277 ...[height=7cm]{Pictures/Jordan network.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: File `Pictures/Supervised Learning.png' not found on input line 
-293.
+294.
 
 
 ! Package pdftex.def Error: File `Pictures/Supervised Learning.png' not found: 
@@ -383,15 +470,15 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.293 ...ht=7cm]{Pictures/Supervised Learning.png}
+l.294 ...ht=7cm]{Pictures/Supervised Learning.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[13] [14]
+[12] [13]
 
 LaTeX Warning: File `Pictures/Unsupervised Learning.png' not found on input lin
-e 306.
+e 307.
 
 
 ! Package pdftex.def Error: File `Pictures/Unsupervised Learning.png' not found
@@ -401,19 +488,19 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 ...16cm]{Pictures/Unsupervised Learning.png}
+l.307 ...16cm]{Pictures/Unsupervised Learning.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (110.3695pt too wide) in paragraph at lines 306--307
+Overfull \hbox (110.3695pt too wide) in paragraph at lines 307--308
  [] 
  []
 
 
 LaTeX Warning: File `Pictures/Reinforcement Learning.png' not found on input li
-ne 319.
+ne 320.
 
 
 ! Package pdftex.def Error: File `Pictures/Reinforcement Learning.png' not foun
@@ -423,7 +510,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 ...7cm]{Pictures/Reinforcement Learning.png}
+l.320 ...7cm]{Pictures/Reinforcement Learning.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -431,26 +518,336 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
-[15] [16]
+[14] [15]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
- [17] [18] (./Chapter1.aux)
+ [16]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.385 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[17]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [18]
+Chapter 5.
+[19
+
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.441 \multirow
+               {5}{*}{\textbf{Algorithms}} & \textbf{} & \textbf{Precesion} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `adam.png' not found on input line 466.
+
+
+! Package pdftex.def Error: File `adam.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.466 ...egraphics[width=0.5\linewidth]{adam.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `sgd.png' not found on input line 467.
+
+
+! Package pdftex.def Error: File `sgd.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.467 ...degraphics[width=0.5\linewidth]{sgd.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `adagrad.png' not found on input line 468.
+
+
+! Package pdftex.def Error: File `adagrad.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...aphics[width=0.5\linewidth]{adagrad.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `adadelta.png' not found on input line 469.
+
+
+! Package pdftex.def Error: File `adadelta.png' not found: using draft setting.
+
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.469 ...phics[width=0.5\linewidth]{adadelta.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 219.04077pt on input line 471.
+
+
+LaTeX Warning: File `Pictures/adam.png' not found on input line 512.
+
+
+! Package pdftex.def Error: File `Pictures/adam.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.512 ...degraphics[height=7cm]{Pictures/adam.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adam_model_accuracy.png' not found on input line 
+521.
+
+
+! Package pdftex.def Error: File `Pictures/adam_model_accuracy.png' not found: 
+using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 ...ht=7cm]{Pictures/adam_model_accuracy.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adam_model_loss.png' not found on input line 530.
+
+
+
+! Package pdftex.def Error: File `Pictures/adam_model_loss.png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.530 ...height=7cm]{Pictures/adam_model_loss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[20] [21] [22]
+
+LaTeX Warning: File `Pictures/sgd.png' not found on input line 543.
+
+
+! Package pdftex.def Error: File `Pictures/sgd.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.543 ...udegraphics[height=7cm]{Pictures/sgd.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/sgd_model_accuracy.png' not found on input line 5
+52.
+
+
+! Package pdftex.def Error: File `Pictures/sgd_model_accuracy.png' not found: u
+sing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ...ght=7cm]{Pictures/sgd_model_accuracy.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/sgd_model_loss.png' not found on input line 561.
+
+
+! Package pdftex.def Error: File `Pictures/sgd_model_loss.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.561 ...[height=7cm]{Pictures/sgd_model_loss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adagrad.png' not found on input line 572.
+
+
+! Package pdftex.def Error: File `Pictures/adagrad.png' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.572 ...raphics[height=7cm]{Pictures/adagrad.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adagrad_model_accuracy.png' not found on input li
+ne 581.
+
+
+! Package pdftex.def Error: File `Pictures/adagrad_model_accuracy.png' not foun
+d: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.581 ...7cm]{Pictures/adagrad_model_accuracy.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adagrad_model_loss.png' not found on input line 5
+90.
+
+
+! Package pdftex.def Error: File `Pictures/adagrad_model_loss.png' not found: u
+sing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 ...ght=7cm]{Pictures/adagrad_model_loss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adadelta.png' not found on input line 600.
+
+
+! Package pdftex.def Error: File `Pictures/adadelta.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.600 ...aphics[height=7cm]{Pictures/adadelta.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adadelta_model_accuracy.png' not found on input l
+ine 609.
+
+
+! Package pdftex.def Error: File `Pictures/adadelta_model_accuracy.png' not fou
+nd: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.609 ...cm]{Pictures/adadelta_model_accuracy.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Pictures/adadelta_model_loss.png' not found on input line 
+618.
+
+
+! Package pdftex.def Error: File `Pictures/adadelta_model_loss.png' not found: 
+using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.618 ...ht=7cm]{Pictures/adadelta_model_loss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[23] [24] [25] [26] [27] [28] (./Chapter1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1513 strings out of 492982
- 21679 string characters out of 6134897
- 82666 words of memory out of 5000000
- 5077 multiletter control sequences out of 15000+600000
- 6239 words of font info for 23 fonts, out of 8000000 for 9000
+ 1696 strings out of 492982
+ 24177 string characters out of 6134897
+ 85586 words of memory out of 5000000
+ 5241 multiletter control sequences out of 15000+600000
+ 6538 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,25p,1139b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,25p,1139b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -458,13 +855,14 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb>
-Output written on Chapter1.pdf (18 pages, 143440 bytes).
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb>
+Output written on Chapter1.pdf (28 pages, 163759 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
