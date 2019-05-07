@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.8)  6 MAY 2019 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.8)  7 MAY 2019 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,39 +1404,6 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `fig:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:c' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:c' multiply defined.
-
-
-LaTeX Warning: Label `fig:d' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:d' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1603,7 +1570,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Pictures/logo.jpg, id=313, 225.84375pt x 225.84375pt>
+<Pictures/logo.jpg, id=317, 225.84375pt x 225.84375pt>
 File: Pictures/logo.jpg Graphic file (type jpg)
 <use Pictures/logo.jpg>
 Package pdftex.def Info: Pictures/logo.jpg  used on input line 92.
@@ -1613,46 +1580,50 @@ Package pdftex.def Info: Pictures/logo.jpg  used on input line 92.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/logo.jpg>]
+[1
+
+]
 ------------------------------------------------------------------------------
  Declaration
 ------------------------------------------------------------------------------
-[1
+[2
 
 ]
 ------------------------------------------------------------------------------
  Certificate Page
 ------------------------------------------------------------------------------
-File: Pictures/logo.jpg Graphic file (type jpg)
-<use Pictures/logo.jpg>
-Package pdftex.def Info: Pictures/logo.jpg  used on input line 112.
-(pdftex.def)             Requested size: 142.27196pt x 142.26378pt.
-[2
+[3
 
 ]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
-[3
+[4
 
 
 ]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
-[4
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+
+ []
+
+[5
 
 ]
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./main.toc [5
+(./main.toc [6
 
 
-] [6])
+] [7])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [7] (./Chapters/Chapter1.tex
+ [8] (./Chapters/Chapter1.tex
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1770,7 +1741,7 @@ Chapter 4.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 124.
 
-<Pictures/Neuron3.png, id=482, 313.17pt x 164.615pt>
+<Pictures/Neuron3.png, id=495, 313.17pt x 164.615pt>
 File: Pictures/Neuron3.png Graphic file (type png)
 <use Pictures/Neuron3.png>
 Package pdftex.def Info: Pictures/Neuron3.png  used on input line 132.
@@ -1818,7 +1789,7 @@ Type  H <return>  for immediate help.
 l.191 \end{table}
                  
 ? 
-<Pictures/ann_model.png, id=498, 733.74126pt x 452.69125pt>
+<Pictures/ann_model.png, id=510, 733.74126pt x 452.69125pt>
 File: Pictures/ann_model.png Graphic file (type png)
 <use Pictures/ann_model.png>
 Package pdftex.def Info: Pictures/ann_model.png  used on input line 200.
@@ -1873,7 +1844,7 @@ l.230 ... divided into the following two types −
 LaTeX Warning: File `Pictures/Single layer feedforward network.png' not found o
 n input line 239.
 
-<Pictures/Single layer feedforward network.png, id=513, 472.76625pt x 320.19624
+<Pictures/Single layer feedforward network.png, id=525, 472.76625pt x 320.19624
 pt>
 File: Pictures/Single layer feedforward network.png Graphic file (type png)
 <use Pictures/Single layer feedforward network.png>
@@ -1884,7 +1855,7 @@ Package pdftex.def Info: Pictures/Single layer feedforward network.png  used on
 LaTeX Warning: File `Pictures/Multilayer feedforward network.png' not found on 
 input line 252.
 
-<Pictures/Multilayer feedforward network.png, id=514, 623.32875pt x 342.27875pt
+<Pictures/Multilayer feedforward network.png, id=526, 623.32875pt x 342.27875pt
 >
 File: Pictures/Multilayer feedforward network.png Graphic file (type png)
 <use Pictures/Multilayer feedforward network.png>
@@ -1907,7 +1878,7 @@ l.258 ...y be divided into the following types −
 LaTeX Warning: File `Pictures/Fully recurrent network.png' not found on input l
 ine 267.
 
-<Pictures/Fully recurrent network.png, id=521, 422.57875pt x 302.12875pt>
+<Pictures/Fully recurrent network.png, id=533, 422.57875pt x 302.12875pt>
 File: Pictures/Fully recurrent network.png Graphic file (type png)
 <use Pictures/Fully recurrent network.png>
 Package pdftex.def Info: Pictures/Fully recurrent network.png  used on input li
@@ -1916,7 +1887,7 @@ ne 267.
 
 LaTeX Warning: File `Pictures/Jordan network.png' not found on input line 277.
 
-<Pictures/Jordan network.png, id=522, 783.92876pt x 422.57875pt>
+<Pictures/Jordan network.png, id=534, 783.92876pt x 422.57875pt>
 File: Pictures/Jordan network.png Graphic file (type png)
 <use Pictures/Jordan network.png>
 Package pdftex.def Info: Pictures/Jordan network.png  used on input line 277.
@@ -1931,7 +1902,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 LaTeX Warning: File `Pictures/Supervised Learning.png' not found on input line 
 294.
 
-<Pictures/Supervised Learning.png, id=538, 643.40375pt x 272.01625pt>
+<Pictures/Supervised Learning.png, id=550, 643.40375pt x 272.01625pt>
 File: Pictures/Supervised Learning.png Graphic file (type png)
 <use Pictures/Supervised Learning.png>
 Package pdftex.def Info: Pictures/Supervised Learning.png  used on input line 2
@@ -1950,7 +1921,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 LaTeX Warning: File `Pictures/Unsupervised Learning.png' not found on input lin
 e 307.
 
-<Pictures/Unsupervised Learning.png, id=539, 543.02875pt x 191.71625pt>
+<Pictures/Unsupervised Learning.png, id=551, 543.02875pt x 191.71625pt>
 File: Pictures/Unsupervised Learning.png Graphic file (type png)
 <use Pictures/Unsupervised Learning.png>
 Package pdftex.def Info: Pictures/Unsupervised Learning.png  used on input line
@@ -1970,7 +1941,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 LaTeX Warning: File `Pictures/Reinforcement Learning.png' not found on input li
 ne 320.
 
-<Pictures/Reinforcement Learning.png, id=546, 643.40375pt x 292.09125pt>
+<Pictures/Reinforcement Learning.png, id=558, 643.40375pt x 292.09125pt>
 File: Pictures/Reinforcement Learning.png Graphic file (type png)
 <use Pictures/Reinforcement Learning.png>
 Package pdftex.def Info: Pictures/Reinforcement Learning.png  used on input lin
@@ -2051,7 +2022,7 @@ Chapter 5.
 [24
 
 ] [25]
-<Pictures/confusion_matrix.png, id=582, 513.92pt x 339.2675pt>
+<Pictures/confusion_matrix.png, id=594, 513.92pt x 339.2675pt>
 File: Pictures/confusion_matrix.png Graphic file (type png)
 <use Pictures/confusion_matrix.png>
 Package pdftex.def Info: Pictures/confusion_matrix.png  used on input line 442.
@@ -2065,85 +2036,85 @@ l.497 \multirow
                {5}{*}{\textbf{Algorithms}} & \textbf{} & \textbf{Precesion} ...
 
 ? 
-<Pictures/adam.png, id=592, 356.33125pt x 295.1025pt>
+<Pictures/adam.png, id=604, 356.33125pt x 295.1025pt>
 File: Pictures/adam.png Graphic file (type png)
 <use Pictures/adam.png>
 Package pdftex.def Info: Pictures/adam.png  used on input line 521.
 (pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
-<Pictures/sgd.png, id=593, 356.33125pt x 295.1025pt>
+<Pictures/sgd.png, id=605, 356.33125pt x 295.1025pt>
 File: Pictures/sgd.png Graphic file (type png)
 <use Pictures/sgd.png>
 Package pdftex.def Info: Pictures/sgd.png  used on input line 522.
 (pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
-<Pictures/adagrad.png, id=594, 356.33125pt x 295.1025pt>
+<Pictures/adagrad.png, id=606, 356.33125pt x 295.1025pt>
 File: Pictures/adagrad.png Graphic file (type png)
 <use Pictures/adagrad.png>
 Package pdftex.def Info: Pictures/adagrad.png  used on input line 524.
 (pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
-<Pictures/adadelta.png, id=595, 356.33125pt x 295.1025pt>
+<Pictures/adadelta.png, id=607, 356.33125pt x 295.1025pt>
 File: Pictures/adadelta.png Graphic file (type png)
 <use Pictures/adadelta.png>
 Package pdftex.def Info: Pictures/adadelta.png  used on input line 525.
 (pdftex.def)             Requested size: 209.44379pt x 173.45152pt.
-<Pictures/adam_model_accuracy.png, id=596, 403.5075pt x 279.0425pt>
+<Pictures/adam_model_accuracy.png, id=616, 403.5075pt x 279.0425pt>
 File: Pictures/adam_model_accuracy.png Graphic file (type png)
 <use Pictures/adam_model_accuracy.png>
 Package pdftex.def Info: Pictures/adam_model_accuracy.png  used on input line 5
-32.
+33.
 (pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
-<Pictures/sgd_model_accuracy.png, id=597, 403.5075pt x 279.0425pt>
+<Pictures/sgd_model_accuracy.png, id=617, 403.5075pt x 279.0425pt>
 File: Pictures/sgd_model_accuracy.png Graphic file (type png)
 <use Pictures/sgd_model_accuracy.png>
 Package pdftex.def Info: Pictures/sgd_model_accuracy.png  used on input line 53
-3.
+4.
 (pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
-<Pictures/adagrad_model_accuracy.png, id=598, 403.5075pt x 279.0425pt>
+<Pictures/adagrad_model_accuracy.png, id=618, 403.5075pt x 279.0425pt>
 File: Pictures/adagrad_model_accuracy.png Graphic file (type png)
 <use Pictures/adagrad_model_accuracy.png>
 Package pdftex.def Info: Pictures/adagrad_model_accuracy.png  used on input lin
-e 535.
+e 536.
 (pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
-<Pictures/adadelta_model_accuracy.png, id=599, 409.53pt x 279.0425pt>
+<Pictures/adadelta_model_accuracy.png, id=619, 409.53pt x 279.0425pt>
 File: Pictures/adadelta_model_accuracy.png Graphic file (type png)
 <use Pictures/adadelta_model_accuracy.png>
 Package pdftex.def Info: Pictures/adadelta_model_accuracy.png  used on input li
-ne 536.
+ne 537.
 (pdftex.def)             Requested size: 209.44379pt x 142.71002pt.
-<Pictures/adam_model_loss.png, id=600, 396.48125pt x 279.0425pt>
+<Pictures/adam_model_loss.png, id=628, 396.48125pt x 279.0425pt>
 File: Pictures/adam_model_loss.png Graphic file (type png)
 <use Pictures/adam_model_loss.png>
-Package pdftex.def Info: Pictures/adam_model_loss.png  used on input line 542.
+Package pdftex.def Info: Pictures/adam_model_loss.png  used on input line 544.
 (pdftex.def)             Requested size: 209.44379pt x 147.40642pt.
-<Pictures/sgd_model_loss.png, id=601, 396.48125pt x 279.0425pt>
+<Pictures/sgd_model_loss.png, id=629, 396.48125pt x 279.0425pt>
 File: Pictures/sgd_model_loss.png Graphic file (type png)
 <use Pictures/sgd_model_loss.png>
-Package pdftex.def Info: Pictures/sgd_model_loss.png  used on input line 543.
+Package pdftex.def Info: Pictures/sgd_model_loss.png  used on input line 545.
 (pdftex.def)             Requested size: 209.44379pt x 147.40642pt.
-<Pictures/adagrad_model_loss.png, id=602, 390.45876pt x 279.0425pt>
+<Pictures/adagrad_model_loss.png, id=630, 390.45876pt x 279.0425pt>
 File: Pictures/adagrad_model_loss.png Graphic file (type png)
 <use Pictures/adagrad_model_loss.png>
 Package pdftex.def Info: Pictures/adagrad_model_loss.png  used on input line 54
-5.
+7.
 (pdftex.def)             Requested size: 209.44379pt x 149.6801pt.
-<Pictures/adadelta_model_loss.png, id=603, 403.5075pt x 279.0425pt>
+<Pictures/adadelta_model_loss.png, id=631, 403.5075pt x 279.0425pt>
 File: Pictures/adadelta_model_loss.png Graphic file (type png)
 <use Pictures/adadelta_model_loss.png>
 Package pdftex.def Info: Pictures/adadelta_model_loss.png  used on input line 5
-46.
+48.
 (pdftex.def)             Requested size: 209.44379pt x 144.83894pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 575.
 [28] [29 <./Pictures/adam.png> <./Pictures/sgd.png> <./Pictures/adagrad.png> <.
 /Pictures/adadelta.png>] [30 <./Pictures/adam_model_accuracy.png> <./Pictures/s
 gd_model_accuracy.png> <./Pictures/adagrad_model_accuracy.png> <./Pictures/adad
 elta_model_accuracy.png>] [31 <./Pictures/adam_model_loss.png> <./Pictures/sgd_
 model_loss.png> <./Pictures/adagrad_model_loss.png> <./Pictures/adadelta_model_
 loss.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 572.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 575.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 572.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 575.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 575.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 06A92C5B8C6BB1503C879AB6AAE60479;11597.
+(rerunfilecheck)             Checksum: CC852BF29A29DCD341EC2E58DF46466E;11766.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2151,13 +2122,13 @@ LaTeX Warning: There were multiply-defined labels.
  ) )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 112 ({)
+### simple group (level 1) entered at line 147 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27793 strings out of 492982
- 481737 string characters out of 6134897
- 549461 words of memory out of 5000000
- 30863 multiletter control sequences out of 15000+600000
+ 27808 strings out of 492982
+ 482168 string characters out of 6134897
+ 548794 words of memory out of 5000000
+ 30873 multiletter control sequences out of 15000+600000
  540885 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,13n,45p,10377b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2173,10 +2144,10 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on main.pdf (39 pages, 541709 bytes).
+Output written on main.pdf (40 pages, 548896 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 622 compressed objects within 7 object streams
- 150 named destinations out of 1000 (max. 500000)
- 732 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 763 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 740 words of extra memory for PDF output out of 10000 (max. 10000000)
 

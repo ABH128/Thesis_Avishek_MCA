@@ -509,7 +509,7 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
  & \textbf{Accuracy} \\ \hline
 \textbf{ADAM} & 99.94 \\ \hline
 \textbf{SGD} & 99.95 \\ \hline
-\textbf{ADAGARD} & 99.96 \\ \hline
+\textbf{ADAGARD} & \textbf{99.96} \\ \hline
 \textbf{ADADELTA} & 99.89 \\ \hline
 \end{tabular}
 \end{table}
@@ -523,28 +523,31 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
     \\
     \subfigure[]{\label{fig:adagrad}\includegraphics[width=0.49\linewidth]{adagrad.png}}
     \subfigure[]{\label{fig:adadelta}\includegraphics[width=0.49\linewidth]{adadelta.png}} 
-  \label{}
+  \label{fig:cm}
+  \caption{Confusion matrix comparison among \ref{fig:adam} ADAM, \ref{fig:sgd} SGD, \ref{fig:adagrad} ADAGRAD, \ref{fig:adadelta} ADADELTA}
 \end{figure}
 
 
 \begin{figure}[htbp]
 \centering
-    \subfigure[]{\label{fig:a}\includegraphics[width=0.49\linewidth]{adam_model_accuracy.png}}
-    \subfigure[]{\label{fig:b}\includegraphics[width=0.49\linewidth]{sgd_model_accuracy.png}} 
+    \subfigure[]{\label{fig:adam_model_accuracy}\includegraphics[width=0.49\linewidth]{adam_model_accuracy.png}}
+    \subfigure[]{\label{fig:sgd_model_accuracy}\includegraphics[width=0.49\linewidth]{sgd_model_accuracy.png}} 
     \\
-    \subfigure[]{\label{fig:c}\includegraphics[width=0.49\linewidth]{adagrad_model_accuracy.png}}
-    \subfigure[]{\label{fig:d}\includegraphics[width=0.49\linewidth]{adadelta_model_accuracy.png}} 
-  \label{}
+    \subfigure[]{\label{fig:adagrad_model_accuracy}\includegraphics[width=0.49\linewidth]{adagrad_model_accuracy.png}}
+    \subfigure[]{\label{fig:adadelta_model_accuracy}\includegraphics[width=0.49\linewidth]{adadelta_model_accuracy.png}} 
+  \label{fig:model accuracy}
+  \caption{Model Accuracy Comparison among \ref{fig:adam_model_accuracy} ADAM, \ref{fig:sgd_model_accuracy} SGD, \ref{fig:adagrad_model_accuracy} ADAGRAD, \ref{fig:adadelta_model_accuracy} ADADELTA}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-    \subfigure[]{\label{fig:a}\includegraphics[width=0.49\linewidth]{adam_model_loss.png}}
-    \subfigure[]{\label{fig:b}\includegraphics[width=0.49\linewidth]{sgd_model_loss.png}} 
+    \subfigure[]{\label{fig:adam_model_loss}\includegraphics[width=0.49\linewidth]{adam_model_loss.png}}
+    \subfigure[]{\label{fig:sgd_model_loss}\includegraphics[width=0.49\linewidth]{sgd_model_loss.png}} 
     \\
-    \subfigure[]{\label{fig:c}\includegraphics[width=0.49\linewidth]{adagrad_model_loss.png}}
-    \subfigure[]{\label{fig:d}\includegraphics[width=0.49\linewidth]{adadelta_model_loss.png}} 
-  \label{}
+    \subfigure[]{\label{fig:adagrad_model_loss}\includegraphics[width=0.49\linewidth]{adagrad_model_loss.png}}
+    \subfigure[]{\label{fig:adadelta_model_loss}\includegraphics[width=0.49\linewidth]{adadelta_model_loss.png}} 
+  \label{model loss}
+  \caption{Model Loss Comparison among \ref{fig:adam_model_loss} ADAM, \ref{fig:sgd_model_loss} SGD, \ref{fig:adagrad_model_loss} ADAGRAD, \ref{fig:adadelta_model_loss} ADADELTA}
 \end{figure}
 
 %\begin{figure}[]

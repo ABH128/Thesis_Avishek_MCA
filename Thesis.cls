@@ -331,6 +331,9 @@ Under the supervision of \par
 %  \global\let\and\relax
 %  \cleardoublepage
 %}
+
+
+
 \newcommand\Declaration[1]{
 \btypeout{Declaration}
 \addtotoc{Declaration}
@@ -346,7 +349,7 @@ I certify that\par
 \item The work contained in this report has been done by me under the guidance of my supervisor.
 \item The work has not been submitted to any other Institute for any degree or diploma.
 \item I have conformed to the norms and guidelines given in the Ethical Code of Conduct of the Institute.
-\item Whenever I have used materials (data, theoretical analysis, figures, and text) from other sources, I have given due credit to them by citing them in the text of the thesis and giving their details in the references. Further, I have taken permission from the copyright owners of the sources, whenever necessary.
+\item Whenever I have used materials (data, theoretical analysis, figures, and text) from other sources, I have given due credit to them by citing them in the text of the thesis and giving their details in the references. 
 \end{enumerate}
 \vfill
 Date: \datesign\hfill (\authornames)\par
@@ -357,66 +360,6 @@ Place: \placesh \hfill (\rollnumber)%\vskip 60\p@
 \cleardoublepage
 }
 
-%----------------------------------------------------------------------------------------
-%	TITLE PAGE DESIGN
-%----------------------------------------------------------------------------------------
-\newenvironment{titlepg}
-{
-\hypersetup{pdftitle={\@title}}
-  \hypersetup{pdfsubject=\subjectname}
-  \hypersetup{pdfauthor=\authornames}
-  \hypersetup{pdfkeywords=\keywordnames}
-  \btypeout{Title Page}
-  \thispagestyle{empty}
-\begin{titlepage}
-\begin{spacing}{1}
-\centering
-		
-	
-\large{\bfseries \@title \par}
-\vfill
-
-
-\normalsize{{\coursecds} report submitted to \par
-\univname \par
-in partial fulfilment for the award of the degree of \par 
-\degreename \par
- in \par 
-\degreenamemajor \par
-}
-\vfill
-
-{\bfseries
-by \par
-\authornames \par
-(\rollnumber) \par
-}
-
-
-\vfill
-{\bfseries
-Under the supervision of \par
-\supname \par
-}
-\vfill
-\includegraphics[height=4cm]{logo.jpg}\par
-
-\vfill
-	
-{\bfseries
-\deptname \par
-\univname \par
-\semsubs \par
-\datesubs \par
-}
-
-\end{spacing}
-
-\end{titlepage}
-%\null\vfil
-%\cleardoublepage
-}
-%----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE DESIGN
@@ -432,13 +375,13 @@ Under the supervision of \par
     %\bigskip
     {\centering{\huge{\textit{Abstract}}} \par}
     \bigskip
-    \HRule \\[0.4cm] % Horizontal line
-		Name of the student:	 \textbf{\authornames}	\hfill Roll No: \textbf{\rollnumber} \\
-		Degree for which submitted:  \textbf{\degreename} \\
-		Department:  \textbf{\deptname} \\
-		Thesis title: \textbf{\@title}\\
-		Thesis supervisor:  \textbf{\supname}\\
-		Month and year of thesis submission: \textbf{{{\datesubs}}\\[0.4cm] }
+   % \HRule \\[0.4cm] % Horizontal line
+		%Student Name:	 \textbf{\authornames}	\hfill Roll No: \textbf{\rollnumber} \\
+		%Submitted for Degree:  \textbf{\degreename} \\
+		%Department:  \textbf{\deptname} \\
+		%Thesis title: \textbf{\@title}\\
+		%Thesis supervisor:  \textbf{\supname}\\
+		%Month and year of thesis submission: \textbf{{{\datesubs}}\\[0.4cm] }
 		\HRule \\[1.5cm] % Horizontal line	
 	
   \end{flushleft}
@@ -458,7 +401,7 @@ Under the supervision of \par
 \MakeUppercase{\placeln}\par}
 \end{spacing}
 \vspace{0.8cm}
-\includegraphics[height=5cm]{logo.jpg}\par
+%\includegraphics[height=5cm]{logo.jpg}\par
 \vspace{0.5cm}
 \textit{\textbf {\large{CERTIFICATE}}}\par
 \end{center}
@@ -467,21 +410,41 @@ Under the supervision of \par
 %\soulregister\together{1}
 %\soulregister{\authornames}{0}
 
-This is to certify that the project report entitled \enquote{\textbf{\ul\ttitle}} submitted by \textbf{\ul\authornames} (Roll No. \rollnumber) to {\univname} towards partial fulfilment of requirements for the award of degree of {\degreename} in {\degreenamemajor} is a record of bona fide work carried out by him under my supervision and guidance during \semsubs.
+This is to certify that the project report entitled \enquote{\textbf{\ul\ttitle}} submitted by \textbf{\ul\authornames} (Roll No. \rollnumber) to {\univname} towards partial fulfilment of requirements for the award of degree of {\degreename} in {\degreenamemajor} is a record of bonafide work carried out by him under my supervision and guidance during \semsubs.
 
 %\vspace{4cm}
 \vfill
 \renewcommand{\arraystretch}{0.75}
 %\begin{tabularx}{\textwidth}{|l|>{\raggedleft\arraybackslash}X|}
 \begin{tabu} to \textwidth{X[l]X[1.15c]}
-&\supname\\
-Date: \datesign&\deptname\\
-Place: \placesh&\univname\\                                                                                                                &\placeln\\
+Dr. Tandra Paul &\supname\\
+\deptname&\deptname\\
+\univname&\univname\\                                                                                                                \placeln&\placeln\\
 %\end{tabularx}
 \end{tabu}
 \vfil\vfil\null
 \cleardoublepage
 }
+
+
+
+
+
+
+
+
+%\vfill
+%\renewcommand{\arraystretch}{0.75}
+%\begin{tabularx}{\textwidth}{|l|>{\raggedleft\arraybackslash}X|}
+%\begin{tabu} to \textwidth{X[l]X[1.15c]}
+%&\supname\\
+%Date: \datesign&\deptname\\
+%Place: \placesh&\univname\\                                                                                                                %&\placeln\\
+%\end{tabularx}
+%\end{tabu}
+%\vfil\vfil\null
+%\cleardoublepage
+%}
 %----------------------------------------------------------------------------------------
 %	DECLARATION DESIGN
 %----------------------------------------------------------------------------------------
@@ -501,7 +464,7 @@ Place: \placesh&\univname\\                                                     
 %\item The work contained in this report has been done by me under the guidance of my supervisor.
 %\item The work has not been submitted to any other Institute for any degree or diploma.
 %\item I have conformed to the norms and guidelines given in the Ethical Code of Conduct of the Institute.
-%\item Whenever I have used materials (data, theoretical analysis, figures, and text) from other sources, I have given due credit to them by citing them in the text of the thesis and giving their details in the references. Further, I have taken permission from the copyright owners of the sources, whenever necessary.
+%\item Whenever I have used materials (data, theoretical analysis, figures, and text) from other sources, %I have given due credit to them by citing them in the text of the thesis and giving their details in the %references.
 %\end{enumerate}
 %
 %\vfill
@@ -512,13 +475,14 @@ Place: \placesh&\univname\\                                                     
 %Date: \hfill (\authorname)\par
 %Place: \placesh \hfill (\rollnumber)
 %
+%
 %	
 %
 %\end{spacing}
 %
 %\end{titlepage}
 %}
-
+%
 %----------------------------------------------------------------------------------------
 
 \addtocounter{secnumdepth}{1}
