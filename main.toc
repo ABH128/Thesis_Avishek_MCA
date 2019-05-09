@@ -10,73 +10,68 @@
 \contentsline {chapter}{Contents}{vi}{dummy.14}
 \contentsline {chapter}{\numberline {1}Intoduction}{2}{chapter.16}
 \contentsline {chapter}{\numberline {2}DIFFERENT TYPES OF FRAUD TECHNIQUES}{3}{chapter.17}
-\contentsline {paragraph}{}{3}{section*.18}
-\contentsline {section}{\numberline {2.1}Card Related Frauds}{3}{section.19}
-\contentsline {paragraph}{}{3}{section*.20}
-\contentsline {subsection}{\numberline {2.1.1}Lost/Stolen Card:}{3}{subsection.21}
-\contentsline {subsection}{\numberline {2.1.2}Account Takeover:}{4}{subsection.22}
-\contentsline {subsection}{\numberline {2.1.3}Cardholder-Not-Present (CNP):}{4}{subsection.23}
-\contentsline {subsection}{\numberline {2.1.4}Erasing the Magnetic strip:}{4}{subsection.24}
-\contentsline {subsection}{\numberline {2.1.5}Phishing:}{5}{subsection.25}
-\contentsline {section}{\numberline {2.2}Merchant Related Frauds}{5}{section.26}
-\contentsline {paragraph}{}{5}{section*.27}
-\contentsline {subsection}{\numberline {2.2.1}Merchant Collusion:}{5}{subsection.28}
-\contentsline {subsection}{\numberline {2.2.2}Triangulation:}{5}{subsection.29}
-\contentsline {paragraph}{}{5}{section*.30}
-\contentsline {section}{\numberline {2.3}Internet Frauds}{6}{section.31}
-\contentsline {paragraph}{}{6}{section*.32}
-\contentsline {subsection}{\numberline {2.3.1}False Merchant Sites:}{6}{subsection.33}
-\contentsline {subsection}{\numberline {2.3.2}Keystroke Loggers:}{6}{subsection.34}
-\contentsline {subsection}{\numberline {2.3.3}Cell phone camera Scan:}{6}{subsection.35}
-\contentsline {subsection}{\numberline {2.3.4}Site Cloning:}{6}{subsection.36}
-\contentsline {chapter}{\numberline {3}PROBLEMS WITH CREDIT CARD FRAUD DETECTION}{8}{chapter.37}
-\contentsline {paragraph}{}{8}{section*.38}
-\contentsline {chapter}{\numberline {4}ARTIFICIAL NEURAL NETWORKS}{10}{chapter.39}
-\contentsline {section}{\numberline {4.1}Definition}{10}{section.40}
-\contentsline {subsection}{\numberline {4.1.1}Input}{11}{subsection.41}
-\contentsline {subsection}{\numberline {4.1.2}Hidden Layer}{11}{subsection.42}
-\contentsline {subsection}{\numberline {4.1.3}Output Layer}{11}{subsection.43}
-\contentsline {paragraph}{}{11}{section*.44}
-\contentsline {section}{\numberline {4.2}Biological Neuron}{11}{section.45}
-\contentsline {subsection}{\numberline {4.2.1}Schematic Diagram}{12}{subsection.46}
-\contentsline {subsection}{\numberline {4.2.2}Working of a Biological Neuron}{12}{subsection.48}
-\contentsline {section}{\numberline {4.3}ANN versus BNN}{13}{section.49}
-\contentsline {section}{\numberline {4.4}Model of Artificial Neural Network}{13}{section.51}
-\contentsline {section}{\numberline {4.5}NETWORK TOPOLOGY}{14}{section.53}
-\contentsline {subsection}{\numberline {4.5.1}Feedforword Network}{15}{subsection.54}
-\contentsline {subsection}{\numberline {4.5.2}Feedback Network}{15}{subsection.57}
-\contentsline {section}{\numberline {4.6}Adjustments of Weights or Learning}{16}{section.60}
-\contentsline {subsection}{\numberline {4.6.1}Supervised Learning}{17}{subsection.61}
-\contentsline {paragraph}{}{17}{section*.62}
-\contentsline {subsection}{\numberline {4.6.2}Unsupervised Learning}{18}{subsection.64}
-\contentsline {paragraph}{}{18}{section*.65}
-\contentsline {subsection}{\numberline {4.6.3}Reinforcement Learning}{19}{subsection.67}
-\contentsline {paragraph}{}{19}{section*.68}
-\contentsline {section}{\numberline {4.7}Activation Functions}{19}{section.70}
-\contentsline {subsection}{\numberline {4.7.1}Linear Activation Function}{20}{subsection.71}
-\contentsline {subsection}{\numberline {4.7.2}Sigmoid Activation Function}{20}{subsection.72}
-\contentsline {section}{\numberline {4.8}Learning}{21}{section.73}
-\contentsline {subsection}{\numberline {4.8.1}Forward Pass: }{21}{subsection.74}
-\contentsline {subsection}{\numberline {4.8.2}Backward Pass: }{21}{subsection.75}
-\contentsline {section}{\numberline {4.9}Optimization Algorithms Used:}{21}{section.76}
-\contentsline {subsection}{\numberline {4.9.1}Adagrad: }{21}{subsection.77}
-\contentsline {paragraph}{}{22}{section*.78}
-\contentsline {paragraph}{}{22}{section*.79}
-\contentsline {subsection}{\numberline {4.9.2}Adadelta: }{22}{subsection.80}
-\contentsline {paragraph}{}{22}{section*.81}
-\contentsline {subsection}{\numberline {4.9.3}Adam: }{22}{subsection.82}
-\contentsline {paragraph}{}{23}{section*.83}
-\contentsline {subsection}{\numberline {4.9.4}SGD: }{23}{subsection.84}
-\contentsline {paragraph}{}{23}{section*.85}
-\contentsline {chapter}{\numberline {5}Environment Setup And Performance Metrices}{24}{chapter.86}
-\contentsline {section}{\numberline {5.1}Dataset: }{24}{section.87}
-\contentsline {section}{\numberline {5.2}Environment: }{25}{section.88}
-\contentsline {subsection}{\numberline {5.2.1}Jupyter Notebook: }{25}{subsection.89}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Components: }{25}{subsubsection.90}
-\contentsline {subsection}{\numberline {5.2.2}Operating System: }{25}{subsection.91}
-\contentsline {section}{\numberline {5.3}Confusion Matrix: }{25}{section.92}
-\contentsline {subsection}{\numberline {5.3.1}Classification Rate/Accuracy:}{26}{subsection.94}
-\contentsline {subsection}{\numberline {5.3.2}Recall: }{27}{subsection.95}
-\contentsline {subsection}{\numberline {5.3.3}Precision: }{27}{subsection.96}
-\contentsline {subsection}{\numberline {5.3.4}F Measure: }{27}{subsection.97}
-\contentsline {section}{\numberline {5.4}Performance Metrices: }{28}{section.98}
+\contentsline {section}{\numberline {2.1}Card Related Frauds}{3}{section.18}
+\contentsline {subsection}{\numberline {2.1.1}Lost/Stolen Card:}{3}{subsection.19}
+\contentsline {subsection}{\numberline {2.1.2}Account Takeover:}{3}{subsection.20}
+\contentsline {subsection}{\numberline {2.1.3}Cardholder-Not-Present (CNP):}{4}{subsection.21}
+\contentsline {subsection}{\numberline {2.1.4}Erasing the Magnetic strip:}{4}{subsection.22}
+\contentsline {subsection}{\numberline {2.1.5}Phishing:}{4}{subsection.23}
+\contentsline {section}{\numberline {2.2}Merchant Related Frauds}{5}{section.24}
+\contentsline {subsection}{\numberline {2.2.1}Merchant Collusion:}{5}{subsection.25}
+\contentsline {subsection}{\numberline {2.2.2}Triangulation:}{5}{subsection.26}
+\contentsline {section}{\numberline {2.3}Internet Frauds}{5}{section.27}
+\contentsline {subsection}{\numberline {2.3.1}False Merchant Sites:}{5}{subsection.28}
+\contentsline {subsection}{\numberline {2.3.2}Keystroke Loggers:}{6}{subsection.29}
+\contentsline {subsection}{\numberline {2.3.3}Cell phone camera Scan:}{6}{subsection.30}
+\contentsline {subsection}{\numberline {2.3.4}Site Cloning:}{6}{subsection.31}
+\contentsline {chapter}{\numberline {3}PROBLEMS WITH CREDIT CARD FRAUD DETECTION}{7}{chapter.32}
+\contentsline {paragraph}{}{7}{section*.33}
+\contentsline {chapter}{\numberline {4}ARTIFICIAL NEURAL NETWORKS}{9}{chapter.34}
+\contentsline {section}{\numberline {4.1}Definition}{9}{section.35}
+\contentsline {subsection}{\numberline {4.1.1}Input}{10}{subsection.36}
+\contentsline {subsection}{\numberline {4.1.2}Hidden Layer}{10}{subsection.37}
+\contentsline {subsection}{\numberline {4.1.3}Output Layer}{10}{subsection.38}
+\contentsline {section}{\numberline {4.2}Biological Neuron}{10}{section.39}
+\contentsline {subsection}{\numberline {4.2.1}Schematic Diagram}{11}{subsection.40}
+\contentsline {subsection}{\numberline {4.2.2}Working of a Biological Neuron}{11}{subsection.42}
+\contentsline {section}{\numberline {4.3}Biological neural Network(BNN) v/s Artificial Neural Network(ANN)}{12}{section.43}
+\contentsline {section}{\numberline {4.4}Model of Artificial Neural Network}{12}{section.44}
+\contentsline {section}{\numberline {4.5}NETWORK TOPOLOGY}{13}{section.46}
+\contentsline {subsection}{\numberline {4.5.1}Feedforword Network}{14}{subsection.47}
+\contentsline {subsection}{\numberline {4.5.2}Feedback Network}{14}{subsection.50}
+\contentsline {section}{\numberline {4.6}Adjustments of Weights or Learning}{16}{section.53}
+\contentsline {subsection}{\numberline {4.6.1}Supervised Learning}{16}{subsection.54}
+\contentsline {paragraph}{}{16}{section*.55}
+\contentsline {subsection}{\numberline {4.6.2}Unsupervised Learning}{17}{subsection.57}
+\contentsline {paragraph}{}{17}{section*.58}
+\contentsline {subsection}{\numberline {4.6.3}Reinforcement Learning}{18}{subsection.60}
+\contentsline {paragraph}{}{18}{section*.61}
+\contentsline {section}{\numberline {4.7}Activation Functions}{18}{section.63}
+\contentsline {subsection}{\numberline {4.7.1}Linear Activation Function}{19}{subsection.64}
+\contentsline {subsection}{\numberline {4.7.2}Sigmoid Activation Function}{19}{subsection.65}
+\contentsline {section}{\numberline {4.8}Learning}{20}{section.66}
+\contentsline {subsection}{\numberline {4.8.1}Forward Pass: }{20}{subsection.67}
+\contentsline {subsection}{\numberline {4.8.2}Backward Pass: }{20}{subsection.68}
+\contentsline {section}{\numberline {4.9}Optimization Algorithms Used:}{20}{section.69}
+\contentsline {subsection}{\numberline {4.9.1}Adagrad: }{20}{subsection.70}
+\contentsline {paragraph}{}{21}{section*.71}
+\contentsline {paragraph}{}{21}{section*.72}
+\contentsline {subsection}{\numberline {4.9.2}Adadelta: }{21}{subsection.73}
+\contentsline {paragraph}{}{21}{section*.74}
+\contentsline {subsection}{\numberline {4.9.3}Adam: }{21}{subsection.75}
+\contentsline {paragraph}{}{22}{section*.76}
+\contentsline {subsection}{\numberline {4.9.4}SGD: }{22}{subsection.77}
+\contentsline {chapter}{\numberline {5}Environment Setup And Performance Metrices}{23}{chapter.78}
+\contentsline {section}{\numberline {5.1}Dataset: }{23}{section.79}
+\contentsline {section}{\numberline {5.2}Environment: }{24}{section.80}
+\contentsline {subsection}{\numberline {5.2.1}Jupyter Notebook: }{24}{subsection.81}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Components: }{24}{subsubsection.82}
+\contentsline {subsection}{\numberline {5.2.2}Operating System: }{24}{subsection.83}
+\contentsline {section}{\numberline {5.3}Confusion Matrix: }{24}{section.84}
+\contentsline {subsection}{\numberline {5.3.1}Classification Rate/Accuracy:}{25}{subsection.86}
+\contentsline {subsection}{\numberline {5.3.2}Recall: }{26}{subsection.87}
+\contentsline {subsection}{\numberline {5.3.3}Precision: }{26}{subsection.88}
+\contentsline {subsection}{\numberline {5.3.4}F Measure: }{26}{subsection.89}
+\contentsline {section}{\numberline {5.4}Performance Metrices: }{27}{section.90}
+\contentsline {chapter}{\numberline {6}Result Discussion}{31}{chapter.108}
+\contentsline {section}{\numberline {6.1}Performance Comparisons}{31}{section.109}

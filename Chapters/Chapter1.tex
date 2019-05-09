@@ -34,10 +34,8 @@ The advent of credit cards and their increasing functionality have not only give
 \chapter{DIFFERENT TYPES OF FRAUD TECHNIQUES}
 
 There are three classes of frauds namely card related, merchant related and internet frauds. Some of them are listed below
-\paragraph{}
 
 \section{Card Related Frauds}
-\paragraph{}
 
 \subsection{Lost/Stolen Card:}
  This type of fraud occurs when the fraudster simply steals a customer’s card. In this case, the customer might feel he has lost his card, but actually this card might have been acquired by an attacker. 
@@ -56,16 +54,13 @@ This is the type of fraud where the fraudsters erase the magnetic stripe by usin
 Phishing is a type of fraud designed to steal a person’s identity. It is usually committed via spam e-mail or pop-up windows. Phishing works by a malicious person sending lots of false emails. The emails looks like they have come from a website or company you trust, for example your bank. The message tells you to provide the company with your personal details including your payment card details. They can claim that the reason for this is a database crash or something like this. To make the email look even more authentic, the fraudster might put a link to a website that look exactly like the real one but in fact that is not the real one and that is the fake one. These copies are often called “Spoofed websites”. When you are on the spoofed site they can ask you for even more personal details that will be directly transmitted to the person who made that website.  
 
 \section{Merchant Related Frauds}
-\paragraph{}
 \subsection{Merchant Collusion:}
 This type is done when a merchant purposely passes on his customer’s personal information to fraudsters. 
 
 \subsection{Triangulation:}
 Here, the fraudster creates a fake website and operates from there. Many discounts are given to the customers through this website due to which users are attracted to such websites. They purchase items and there they enter their personal information. Then this information is obtained by the fraudsters and they use it to perform illegimitate transactions.  
 
-\paragraph{}
 \section{Internet Frauds}
-\paragraph{}
 \subsection{False Merchant Sites:}
  In this type, the website asks the customers to enter their personal details if they want to access the content of the website. In this way, these fraudsters collect many credit card number which they use later for performing fraudulent transactions.
 
@@ -96,8 +91,6 @@ We now enumerate some of the properties a fraud detection system should have in 
 
 \item There is a need for good metrics to evaluate the classifier system. As an example, the overall accuracy is not suited for evaluation on a skewed distribution, since even with a very high accuracy, almost all fraudulent transactions can be misclassified. 
 
-\item The system should take into account the cost of the fraudulent behaviour detected and the cost associated with stopping it. For example, no profit is made by stopping a fraudulent transaction of only a few Euros. 
-
 
 \end{itemize}
 
@@ -119,8 +112,8 @@ Input layer Receives input from an input stream, which can be database or some d
 Is hidden from the outside world and receives input only from the input layer or another hidden layer
 
 \subsection{Output Layer}
-Connects the network to the outside world again and provides the final output of the network
-\paragraph{}
+Connects the network to the outside world again and provides the final output of the network.
+
 A feed forward multilayer perceptron has no cycles and there is full connectivity between the perceptions of two consecutive layers. Signals can be propagated in two directions: function signals are propagated forwards, i.e. from input laver through the hidden layer(s) to the output layer and error signals are propagated backwards, i.e. from output layer through the hidden layer(s) to the input layer.
 
 \section{Biological Neuron}
@@ -149,25 +142,41 @@ As shown in the above diagram, a typical neuron consists of the following four p
 
 \end{itemize}
 
-\section{ANN versus BNN}
+\section{Biological neural Network(BNN) v/s Artificial Neural Network(ANN)}
 Before taking a look at the differences between Artificial Neural Network (ANN) and Biological Neural Network (BNN), let us take a look at the similarities based on the terminology between these two.
 
 
 
 \begin{center}
+%\resizebox{1.1\textwidth}{!}{
+%\begin{tabular}{ |c|c| } 
+% \hline
+% \textbf{Biological neural Network (BNN)} & \textbf{Artificial Neural Network (ANN)}  \\ 
+%\hline 
+%Soma & Node  \\ 
+%Dendrites & Input  \\ 
+% Synapse & Weights or Interconnections\\
+% Axon & Output\\
+% \hline
+%\end{tabular}
+%}
+
+%\begin{table}[]
 \resizebox{1.1\textwidth}{!}{
-\begin{tabular}{ |c|c| } 
- \hline
- \textbf{Biological neural Network (BNN)} & \textbf{Artificial Neural Network (ANN)}  \\ 
- \hline 
- Soma & Node  \\ 
- Dendrites & Input  \\ 
- Synapse & Weights or Interconnections\\
- Axon & Output\\
- \hline
+\begin{tabular}{|c|c|}
+\hline
+\multicolumn{1}{|l|}{\textbf{Biological neural Network (BNN)}} & \multicolumn{1}{l|}{\textbf{Artificial Neural Network (ANN)}} \\ \hline
+Soma & Node \\ \hline
+Dendrites & Input \\ \hline
+Synapse & Weights or Interconnections \\ \hline
+Axon & Output \\ \hline
 \end{tabular}
 }
+%\end{table}
+
 \end{center}
+
+
 
 The following table shows the comparison between ANN and BNN based on some criteria mentioned.
 
@@ -175,20 +184,30 @@ The following table shows the comparison between ANN and BNN based on some crite
 
 
 
-\begin{table}
+%\begin{table}
 
-\end{table}htbp]
+%\end{table}[htbp]
+%\begin{tabular}{|l|l|l|}
+\begin{center}
 \resizebox{1.1\textwidth}{!}{
-\begin{tabular}{|l|l|l|}
+%\begin{table}[]
+\begin{tabular}{|c|c|c|}
 \hline
 \textbf{Criteria} & \textbf{BNN} & \textbf{ANN} \\ \hline
 \textbf{Processing} & Massively parallel, Slow but superior than ANN & Massively Parallel, Fast but inferior than BNN \\ \hline
-\textbf{Size} & 1011 neurons and 1015 interconnections & \begin{tabular}[c]{@{}l@{}}102 to 104 nodes (mainly depends on the type of \\ application and network designer)\end{tabular} \\ \hline
-\textbf{Learning} & They can tolerate ambiguity & \begin{tabular}[c]{@{}l@{}}Very precise, structured and formatted data is \\ required to tolerate ambiguity\end{tabular} \\ \hline
-\textbf{Fault Tolerance} & Performance degrade with even partial damage & \begin{tabular}[c]{@{}l@{}}It is capable of robust performance, hence has\\  the potential to be fault tolerant\end{tabular} \\ \hline
-\textbf{Storage Capacity} & Stores the information in the synapse & \begin{tabular}[c]{@{}l@{}}Stores the information in continuous memory \\ locations\end{tabular} \\ \hline
-\end{tabular}}
-\end{table}
+\textbf{Size} & \[10^{11}\] neurons and \[10^{15}\] interconnections & \[10^{2}\] to \[10^{4}\] nodes (mainly depends on the type of application and network designer) \\ \hline
+\textbf{Learning} & They can tolerate ambiguity & Very precise, structured and formatted data is required to tolerate ambiguity \\ \hline
+\textbf{Fault Tolerance} & Performance degrade with even partial damage & It is capable of robust performance, hence has the potential to be fault tolerant \\ \hline
+\textbf{Storage Capacity} & Stores the information in the synapse & Stores the information in continuous memory locations \\ \hline
+\end{tabular}
+%\end{table}
+}
+\end{center}
+
+
+
+%\end{tabular}}
+%\end{table}
 
 
 
@@ -198,7 +217,7 @@ The following diagram represents the general model of ANN followed by its proces
 \begin{figure}[htbp]
 \centering
 \includegraphics[height=7cm]{Pictures/ann_model.png}
-\caption{}
+\caption{ANN Model}
 \label{}
 \end{figure}
 
@@ -236,8 +255,8 @@ It is a non-recurrent network having processing units/nodes in layers and all th
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/Single layer feedforward network.png}
-\caption{}
+\includegraphics[height=7cm]{Pictures/Single_layer_feedforward_network.png}
+\caption{Single Layer Feed Forward Network}
 \label{}
 \end{figure}
 
@@ -249,8 +268,8 @@ It is a non-recurrent network having processing units/nodes in layers and all th
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/Multilayer feedforward network.png}
-\caption{}
+\includegraphics[height=7cm]{Pictures/Multilayer_feedforward_network.png}
+\caption{Multilayer Feedforward Network}
 \label{}
 \end{figure}
 
@@ -264,8 +283,8 @@ As the name suggests, a feedback network has feedback paths, which means the sig
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/Fully recurrent network.png}
-\caption{}
+\includegraphics[height=7cm]{Pictures/fully_recurrent_network.png}
+\caption{Fully Recurrent Network}
 \label{}
 \end{figure}
 
@@ -274,8 +293,8 @@ As the name suggests, a feedback network has feedback paths, which means the sig
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/Jordan network.png}
-\caption{}
+\includegraphics[height=7cm]{Pictures/Jordan_network.png}
+\caption{Jordan Network}
 \label{}
 \end{figure}
 
@@ -291,8 +310,8 @@ During the training of ANN under supervised learning, the input vector is presen
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/Supervised Learning.png}
-\caption{}
+\includegraphics[height=7cm]{Pictures/Supervised_Learning.png}
+\caption{Supervised Learning}
 \label{}
 \end{figure}
 
@@ -304,8 +323,8 @@ There is no feedback from the environment as to what should be the desired outpu
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm,width = 16cm]{Pictures/Unsupervised Learning.png}
-\caption{}
+\includegraphics[height=7cm,width = 16cm]{Pictures/Unsupervised_Learning.png}
+\caption{Unsupervised Learning}
 \label{}
 \end{figure}
 
@@ -317,8 +336,8 @@ During the training of network under reinforcement learning, the network receive
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/Reinforcement Learning.png}
-\caption{}
+\includegraphics[height=7cm]{Pictures/Reinforcement_Learning.png}
+\caption{Reinforcement Learning}
 \label{}
 \end{figure}
 
@@ -403,8 +422,6 @@ Adaptive Moment Estimation (Adam) is another method that computes adaptive learn
 The word ‘stochastic‘ means a system or a process that is linked with a random probability. Hence, in Stochastic Gradient Descent, a few samples are selected randomly instead of the whole data set for each iteration. In Gradient Descent, there is a term called “batch” which denotes the total number of samples from a dataset that is used for calculating the gradient for each iteration. In typical Gradient Descent optimization, like Batch Gradient Descent, the batch is taken to be the whole dataset. Although, using the whole dataset is really useful for getting to the minima in a less noisy or less random manner, but the problem arises when our datasets get really huge.
 Suppose, you have a million samples in your dataset, so if you use a typical Gradient Descent optimization technique, you will have to use all of the one million samples for completing one iteration while performing the Gradient Descent, and it has to be done for every iteration until the minima is reached. Hence, it becomes computationally very expensive to perform.
 This problem is solved by Stochastic Gradient Descent. In SGD, it uses only a single sample, i.e., a batch size of one, to perform each iteration. The sample is randomly shuffled and selected for performing the iteration.
-
-\paragraph{}
 
 \chapter{Environment Setup And Performance Metrices}
 
@@ -548,6 +565,27 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
     \subfigure[]{\label{fig:adadelta_model_loss}\includegraphics[width=0.49\linewidth]{adadelta_model_loss.png}} 
   \label{model loss}
   \caption{Model Loss Comparison among \ref{fig:adam_model_loss} ADAM, \ref{fig:sgd_model_loss} SGD, \ref{fig:adagrad_model_loss} ADAGRAD, \ref{fig:adadelta_model_loss} ADADELTA}
+\end{figure}
+
+
+\chapter{Result Discussion}
+\section{Performance Comparisons}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[height=7cm]{Pictures/ADAM_SGD_ADAGRAD_and_ADADELTA_graph.png}
+\caption{Precision, Recall and F-score comparison among ADAM, SGD, ADAGRAD, ADADELTA}
+\label{}
+\end{figure}
+
+As it is given in the above graph that ADAGRAD is having the heighest F-score so this optimizer algorithm is giving the best performance among these four algorithms. After this SGD, ADAM, ADADELTA are having better performances in decreasing order. 
+
+\begin{figure}[htbp]
+\label{fig:accuracy}
+\centering
+\includegraphics[height=7cm]{Pictures/Accuracy_chart.png}
+\caption{Accuracy Comparison among ADAM, SGD, ADAGRAD, ADADELTA}
+%\label{}
 \end{figure}
 
 %\begin{figure}[]
