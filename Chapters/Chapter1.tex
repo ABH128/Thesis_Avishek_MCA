@@ -5,6 +5,8 @@
 \usepackage{comment}
 \usepackage{graphicx}
 %\graphicspath{ {Pictures/} }
+
+
 \begin{document}
 \chapter{Intoduction} % Main chapter title
 
@@ -98,7 +100,7 @@ This means that there should be a decision layer on top of the fraud detection s
 
 \chapter{ARTIFICIAL NEURAL NETWORKS}
 \section{Definition}
-Artificial Neural Network (ANN) is an efficient computing system whose central theme is borrowed from the analogy of biological neural networks. ANN acquires a large collection of units that are interconnected in some pattern to allow communication between the units. These units, referred to as nodes or neurons, are simple processors which operate in parallel.
+Artificial Neural Network (ANN)\cite{ANN} is an efficient computing system whose central theme is borrowed from the analogy of biological neural networks. ANN acquires a large collection of units that are interconnected in some pattern to allow communication between the units. These units, referred to as nodes or neurons, are simple processors which operate in parallel.
 Every neuron is connected with other neuron through a connection link. Each connection link is associated with a weight that has information about the input signal. This is the most useful information for neurons to solve a particular problem because the weight usually excites or inhibits the signal that is being communicated. Each neuron has an internal state, which is called an activation signal. Output signals, which are produced after combining the input signals and activation rule, may be sent to other units.
 
 
@@ -118,7 +120,7 @@ A feed forward multilayer perceptron has no cycles and there is full connectivit
 
 \section{Biological Neuron}
 A nerve cell (neuron) is a special biological cell that processes information. According to an estimation, there are huge number of neurons, approximately $10^{11}$ with numerous interconnections, approximately $10^{15}$
-\subsection{Schematic Diagram}
+%\subsection{Schematic Diagram}
 
 \begin{figure}[htp]
 \centering
@@ -129,7 +131,7 @@ A nerve cell (neuron) is a special biological cell that processes information. A
 
 \subsection{Working of a Biological Neuron}
 
-As shown in the above diagram, a typical neuron consists of the following four parts with the help of which we can explain its working −
+As shown in the diagram \cite{BNN_figure}, a typical neuron consists of the following four parts with the help of which we can explain its working −
 
 \begin{itemize}
 \item \textbf{Dendrites: } They are tree-like branches, responsible for receiving the information from other neurons it is connected to. In other sense, we can say that they are like the ears of neuron.
@@ -191,6 +193,7 @@ The following table shows the comparison between ANN and BNN based on some crite
 \begin{center}
 \resizebox{1.1\textwidth}{!}{
 %\begin{table}[]
+
 \begin{tabular}{|c|c|c|}
 \hline
 \textbf{Criteria} & \textbf{BNN} & \textbf{ANN} \\ \hline
@@ -216,7 +219,7 @@ The following diagram represents the general model of ANN followed by its proces
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/ann_model.png}
+\includegraphics[height=7cm]{Pictures/ann_model_1.png}
 \caption{ANN Model}
 \label{}
 \end{figure}
@@ -243,7 +246,7 @@ Processing of ANN depends upon the following three building blocks −
 \end{itemize}
 
 \section{NETWORK TOPOLOGY}
-A network topology is the arrangement of a network along with its nodes and connecting lines. According to the topology, ANN can be classified as the following kinds −
+A network topology \cite{Network Topology} is the arrangement of a network along with its nodes and connecting lines. According to the topology, ANN can be classified as the following kinds −
 
 \subsection{Feedforword Network}
 It is a non-recurrent network having processing units/nodes in layers and all the nodes in a layer are connected with the nodes of the previous layers. The connection has different weights upon them. There is no feedback loop means the signal can only flow in one direction, from input to output. It may be divided into the following two types −
@@ -386,7 +389,7 @@ Forward pass every perceptron calculates the weighted linear combination of all 
 
 \section{Optimization Algorithms Used:}
 \subsection{Adagrad: }
-Adagrad is an algorithm for gradient-based optimization that does just this: It adapts the learning rate to the parameters, performing smaller updates
+Adagrad \cite{Adagrad} is an algorithm for gradient-based optimization that does just this: It adapts the learning rate to the parameters, performing smaller updates
 (i.e. low learning rates) for parameters associated with frequently occurring features, and larger updates (i.e. high learning rates) for parameters associated with infrequent features. For this reason, it is well-suited for dealing with sparse data.
 \paragraph{}
 \textbf{Pros: }
@@ -410,24 +413,24 @@ Adagrad is an algorithm for gradient-based optimization that does just this: It 
 
 
 \subsection{Adadelta: }
-Adadelta is a more robust extension of Adagrad that adapts learning rates based on a moving window of gradient updates, instead of accumulating all past gradients. This way, Adadelta continues learning even when many updates have been done. Compared to Adagrad, in the original version of Adadelta you don't have to set an initial learning rate. In this version, initial learning rate and decay factor can be set, as in most other Keras optimizers.
+Adadelta \cite{Adadelta} is a more robust extension of Adagrad that adapts learning rates based on a moving window of gradient updates, instead of accumulating all past gradients. This way, Adadelta continues learning even when many updates have been done. Compared to Adagrad, in the original version of Adadelta you don't have to set an initial learning rate. In this version, initial learning rate and decay factor can be set, as in most other Keras optimizers.
 
 \paragraph{}
 
 \subsection{Adam: }
-Adaptive Moment Estimation (Adam) is another method that computes adaptive learning rates for each parameter. In addition to storing an exponentially decaying average of past squared gradients similar to momentum. Whereas momentum can be seen as a ball running down a slope, Adam behaves like a heavy ball with friction, which thus prefers flat minima in the error surface.
+Adaptive Moment Estimation (Adam) \cite{Adam} is another method that computes adaptive learning rates for each parameter. In addition to storing an exponentially decaying average of past squared gradients similar to momentum. Whereas momentum can be seen as a ball running down a slope, Adam behaves like a heavy ball with friction, which thus prefers flat minima in the error surface.
 \paragraph{}
 
 \subsection{SGD: }
-The word ‘stochastic‘ means a system or a process that is linked with a random probability. Hence, in Stochastic Gradient Descent, a few samples are selected randomly instead of the whole data set for each iteration. In Gradient Descent, there is a term called “batch” which denotes the total number of samples from a dataset that is used for calculating the gradient for each iteration. In typical Gradient Descent optimization, like Batch Gradient Descent, the batch is taken to be the whole dataset. Although, using the whole dataset is really useful for getting to the minima in a less noisy or less random manner, but the problem arises when our datasets get really huge.
+The word ‘stochastic‘ means a system or a process that is linked with a random probability. Hence, in Stochastic Gradient Descent \cite{SGD}, a few samples are selected randomly instead of the whole data set for each iteration. In Gradient Descent, there is a term called “batch” which denotes the total number of samples from a dataset that is used for calculating the gradient for each iteration. In typical Gradient Descent optimization, like Batch Gradient Descent, the batch is taken to be the whole dataset. Although, using the whole dataset is really useful for getting to the minima in a less noisy or less random manner, but the problem arises when our datasets get really huge.
 Suppose, you have a million samples in your dataset, so if you use a typical Gradient Descent optimization technique, you will have to use all of the one million samples for completing one iteration while performing the Gradient Descent, and it has to be done for every iteration until the minima is reached. Hence, it becomes computationally very expensive to perform.
 This problem is solved by Stochastic Gradient Descent. In SGD, it uses only a single sample, i.e., a batch size of one, to perform each iteration. The sample is randomly shuffled and selected for performing the iteration.
 
 \chapter{Environment Setup And Performance Metrices}
 
 \section{Dataset: }
-The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172 percent of all transactions.
-It contains only numeric input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where there are  492 frauds out of 284,807 transactions.
+It contains only numeric input variables which are the result of a PCA transformation. Due to confidentiality issues, original features are not provided and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
 \section{Environment: }
 \subsection{Jupyter Notebook: }
@@ -449,14 +452,14 @@ This project is done on Linux Operating Systems.
 
 
 \section{Confusion Matrix: }
-A confusion matrix is a summary of prediction results on a classification problem.
+A confusion matrix\cite{Confusion Matrix} is a summary of prediction results on a classification problem.
 The number of correct and incorrect predictions are summarized with count values and broken down by each class. This is the key to the confusion matrix.
 The confusion matrix shows the ways in which your classification model is confused when it makes predictions.
 It gives us insight not only into the errors being made by a classifier but more importantly the types of errors that are being made.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[height=7cm]{Pictures/confusion_matrix.png}
+\includegraphics[height=5cm, width=9cm]{Pictures/confusion_matrix.png}
 \caption{}
 \label{}
 \end{figure}
@@ -485,7 +488,7 @@ To get the value of precision we divide the total number of correctly classified
 Precision is given by the relation:
 
 Recall is given by the relation:
-\[Recall = \frac{TP}{TP + FP}\]
+\[Precision = \frac{TP}{TP + FP}\]
 
 \begin{itemize}
 
@@ -496,7 +499,7 @@ This means that most of the positive examples are correctly recognized (low FN) 
 This shows that we miss a lot of positive examples (high FN) but those we predict as positive are indeed positive (low FP)
 \end{itemize}
 
-\subsection{F Measure: }
+\subsection{F-Measure: }
 Since we have two measures (Precision and Recall) it helps to have a measurement that represents both of them. We calculate an F-measure which uses Harmonic Mean in place of Arithmetic Mean as it punishes the extreme values more.
 The F-Measure will always be nearer to the smaller value of Precision or Recall.
 
@@ -507,19 +510,29 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
 \section{Performance Metrices: }
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
+\textbf{Performance Measures:}
+\setlength\extrarowheight{5pt}
+
+%\begin{center}
 \begin{table}[htbp]
+\setlength\extrarowheight{5pt}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 \multicolumn{5}{|c|}{\textbf{Performance Measures}} \\ \hline
-\multirow{5}{*}{\textbf{Algorithms}} & \textbf{} & \textbf{Precesion} & \textbf{Recall} & \textbf{F-Score} \\ \cline{2-5} 
+\multirow{\textbf{Algorithms}} & \textbf{} & \textbf{Precesion} & \textbf{Recall} & \textbf{F-Score} \\ \cline{2-5} 
  & \textbf{ADAM} & 0.87 & 0.84 & 0.85 \\ \cline{2-5} 
  & \textbf{SGD} & 0.88 & 0.86 & 0.87 \\ \cline{2-5} 
  & \textbf{ADAGARD} & 0.98 & 0.81 & \textbf{0.89} \\ \cline{2-5} 
  & \textbf{ADADELTA} & 0.62 & 0.8 & 0.7 \\ \hline
 \end{tabular}
 \end{table}
+%\end{center}
 
 
+\paragraph{}
+\textbf{Accuracy:}
+
+%{5}{*}
 \begin{table}[htbp]
 \begin{tabular}{|l|l|}
 \hline
@@ -530,7 +543,7 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
 \textbf{ADADELTA} & 99.89 \\ \hline
 \end{tabular}
 \end{table}
-
+\clearpage
 \textbf{Confusion Metrices: }
 
 \begin{figure}[htbp]
@@ -541,7 +554,7 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
     \subfigure[]{\label{fig:adagrad}\includegraphics[width=0.49\linewidth]{adagrad.png}}
     \subfigure[]{\label{fig:adadelta}\includegraphics[width=0.49\linewidth]{adadelta.png}} 
   \label{fig:cm}
-  \caption{Confusion matrix comparison among \ref{fig:adam} ADAM, \ref{fig:sgd} SGD, \ref{fig:adagrad} ADAGRAD, \ref{fig:adadelta} ADADELTA}
+  \caption{Confusion matrix comparison among \ref{fig:adam} ADAM\cite{Adam}, \ref{fig:sgd} SGD\cite{SGD}, \ref{fig:adagrad} ADAGRAD\cite{Adagrad}, \ref{fig:adadelta} ADADELTA\cite{Adadelta}}
 \end{figure}
 
 
@@ -553,7 +566,7 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
     \subfigure[]{\label{fig:adagrad_model_accuracy}\includegraphics[width=0.49\linewidth]{adagrad_model_accuracy.png}}
     \subfigure[]{\label{fig:adadelta_model_accuracy}\includegraphics[width=0.49\linewidth]{adadelta_model_accuracy.png}} 
   \label{fig:model accuracy}
-  \caption{Model Accuracy Comparison among \ref{fig:adam_model_accuracy} ADAM, \ref{fig:sgd_model_accuracy} SGD, \ref{fig:adagrad_model_accuracy} ADAGRAD, \ref{fig:adadelta_model_accuracy} ADADELTA}
+  \caption{Model Accuracy Comparison among \ref{fig:adam_model_accuracy} ADAM\cite{Adam}, \ref{fig:sgd_model_accuracy} SGD\cite{SGD}, \ref{fig:adagrad_model_accuracy} ADAGRAD\cite{Adagrad}, \ref{fig:adadelta_model_accuracy} ADADELTA\cite{Adadelta}}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -564,7 +577,7 @@ The F-Measure will always be nearer to the smaller value of Precision or Recall.
     \subfigure[]{\label{fig:adagrad_model_loss}\includegraphics[width=0.49\linewidth]{adagrad_model_loss.png}}
     \subfigure[]{\label{fig:adadelta_model_loss}\includegraphics[width=0.49\linewidth]{adadelta_model_loss.png}} 
   \label{model loss}
-  \caption{Model Loss Comparison among \ref{fig:adam_model_loss} ADAM, \ref{fig:sgd_model_loss} SGD, \ref{fig:adagrad_model_loss} ADAGRAD, \ref{fig:adadelta_model_loss} ADADELTA}
+  \caption{Model Loss Comparison among \ref{fig:adam_model_loss} ADAM\cite{Adam}, \ref{fig:sgd_model_loss} SGD\cite{SGD}, \ref{fig:adagrad_model_loss} ADAGRAD\cite{Adagrad}, \ref{fig:adadelta_model_loss} ADADELTA\cite{Adadelta}}
 \end{figure}
 
 
@@ -587,6 +600,47 @@ As it is given in the above graph that ADAGRAD is having the heighest F-score so
 \caption{Accuracy Comparison among ADAM, SGD, ADAGRAD, ADADELTA}
 %\label{}
 \end{figure}
+
+
+
+
+
+
+%\begin{document}
+\begin{thebibliography}{9} 
+ 
+\medskip
+ 
+\bibitem{ANN}{}
+\href{https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_basic_concepts.htm}{https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_basic_concepts.htm} 
+
+\bibitem{BNN_figure}{}
+\href{https://en.wikipedia.org/wiki/Biological_neuron_model}{https://en.wikipedia.org/wiki/Biological_neuron_model}
+
+\bibitem{Network Topology}{}
+\href{https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_building_blocks.htm}{https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_building_blocks.htm}
+
+\bibitem{Adagrad}{}
+\href{http://ruder.io/optimizing-gradient-descent/index.html#adagrad}{http://ruder.io/optimizing-gradient-descent/index.html#adagrad}
+
+\bibitem{Adadelta}{}
+\href{http://ruder.io/optimizing-gradient-descent/index.html#adadelta}{http://ruder.io/optimizing-gradient-descent/index.html#adadelta}
+
+
+\bibitem{Adam}{}
+\href{http://ruder.io/optimizing-gradient-descent/index.html#adam}{http://ruder.io/optimizing-gradient-descent/index.html#adam}
+
+\bibitem{SGD}{}
+\href{http://ruder.io/optimizing-gradient-descent/index.html#stochasticgradientdescent}{http://ruder.io/optimizing-gradient-descent/index.html#stochasticgradientdescent}
+
+\bibitem{Confusion Matrix}{}
+\href{https://www.geeksforgeeks.org/confusion-matrix-machine-learning/}{https://www.geeksforgeeks.org/confusion-matrix-machine-learning/}
+
+
+\end{thebibliography}
+ 
+
+%\end{document}
 
 %\begin{figure}[]
 %\centering

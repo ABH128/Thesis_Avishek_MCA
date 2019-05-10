@@ -32,46 +32,46 @@
 \contentsline {subsection}{\numberline {4.1.2}Hidden Layer}{10}{subsection.37}
 \contentsline {subsection}{\numberline {4.1.3}Output Layer}{10}{subsection.38}
 \contentsline {section}{\numberline {4.2}Biological Neuron}{10}{section.39}
-\contentsline {subsection}{\numberline {4.2.1}Schematic Diagram}{11}{subsection.40}
-\contentsline {subsection}{\numberline {4.2.2}Working of a Biological Neuron}{11}{subsection.42}
-\contentsline {section}{\numberline {4.3}Biological neural Network(BNN) v/s Artificial Neural Network(ANN)}{12}{section.43}
-\contentsline {section}{\numberline {4.4}Model of Artificial Neural Network}{12}{section.44}
-\contentsline {section}{\numberline {4.5}NETWORK TOPOLOGY}{13}{section.46}
-\contentsline {subsection}{\numberline {4.5.1}Feedforword Network}{14}{subsection.47}
-\contentsline {subsection}{\numberline {4.5.2}Feedback Network}{14}{subsection.50}
-\contentsline {section}{\numberline {4.6}Adjustments of Weights or Learning}{16}{section.53}
-\contentsline {subsection}{\numberline {4.6.1}Supervised Learning}{16}{subsection.54}
-\contentsline {paragraph}{}{16}{section*.55}
-\contentsline {subsection}{\numberline {4.6.2}Unsupervised Learning}{17}{subsection.57}
-\contentsline {paragraph}{}{17}{section*.58}
-\contentsline {subsection}{\numberline {4.6.3}Reinforcement Learning}{18}{subsection.60}
-\contentsline {paragraph}{}{18}{section*.61}
-\contentsline {section}{\numberline {4.7}Activation Functions}{18}{section.63}
-\contentsline {subsection}{\numberline {4.7.1}Linear Activation Function}{19}{subsection.64}
-\contentsline {subsection}{\numberline {4.7.2}Sigmoid Activation Function}{19}{subsection.65}
-\contentsline {section}{\numberline {4.8}Learning}{20}{section.66}
-\contentsline {subsection}{\numberline {4.8.1}Forward Pass: }{20}{subsection.67}
-\contentsline {subsection}{\numberline {4.8.2}Backward Pass: }{20}{subsection.68}
-\contentsline {section}{\numberline {4.9}Optimization Algorithms Used:}{20}{section.69}
-\contentsline {subsection}{\numberline {4.9.1}Adagrad: }{20}{subsection.70}
+\contentsline {subsection}{\numberline {4.2.1}Working of a Biological Neuron}{10}{subsection.41}
+\contentsline {section}{\numberline {4.3}Biological neural Network(BNN) v/s Artificial Neural Network(ANN)}{11}{section.42}
+\contentsline {section}{\numberline {4.4}Model of Artificial Neural Network}{12}{section.43}
+\contentsline {section}{\numberline {4.5}NETWORK TOPOLOGY}{13}{section.45}
+\contentsline {subsection}{\numberline {4.5.1}Feedforword Network}{13}{subsection.46}
+\contentsline {subsection}{\numberline {4.5.2}Feedback Network}{15}{subsection.49}
+\contentsline {section}{\numberline {4.6}Adjustments of Weights or Learning}{15}{section.52}
+\contentsline {subsection}{\numberline {4.6.1}Supervised Learning}{16}{subsection.53}
+\contentsline {paragraph}{}{16}{section*.54}
+\contentsline {subsection}{\numberline {4.6.2}Unsupervised Learning}{16}{subsection.56}
+\contentsline {paragraph}{}{17}{section*.57}
+\contentsline {subsection}{\numberline {4.6.3}Reinforcement Learning}{18}{subsection.59}
+\contentsline {paragraph}{}{18}{section*.60}
+\contentsline {section}{\numberline {4.7}Activation Functions}{18}{section.62}
+\contentsline {subsection}{\numberline {4.7.1}Linear Activation Function}{19}{subsection.63}
+\contentsline {subsection}{\numberline {4.7.2}Sigmoid Activation Function}{19}{subsection.64}
+\contentsline {section}{\numberline {4.8}Learning}{19}{section.65}
+\contentsline {subsection}{\numberline {4.8.1}Forward Pass: }{20}{subsection.66}
+\contentsline {subsection}{\numberline {4.8.2}Backward Pass: }{20}{subsection.67}
+\contentsline {section}{\numberline {4.9}Optimization Algorithms Used:}{20}{section.68}
+\contentsline {subsection}{\numberline {4.9.1}Adagrad: }{20}{subsection.69}
+\contentsline {paragraph}{}{20}{section*.70}
 \contentsline {paragraph}{}{21}{section*.71}
-\contentsline {paragraph}{}{21}{section*.72}
-\contentsline {subsection}{\numberline {4.9.2}Adadelta: }{21}{subsection.73}
-\contentsline {paragraph}{}{21}{section*.74}
-\contentsline {subsection}{\numberline {4.9.3}Adam: }{21}{subsection.75}
-\contentsline {paragraph}{}{22}{section*.76}
-\contentsline {subsection}{\numberline {4.9.4}SGD: }{22}{subsection.77}
-\contentsline {chapter}{\numberline {5}Environment Setup And Performance Metrices}{23}{chapter.78}
-\contentsline {section}{\numberline {5.1}Dataset: }{23}{section.79}
-\contentsline {section}{\numberline {5.2}Environment: }{24}{section.80}
-\contentsline {subsection}{\numberline {5.2.1}Jupyter Notebook: }{24}{subsection.81}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Components: }{24}{subsubsection.82}
-\contentsline {subsection}{\numberline {5.2.2}Operating System: }{24}{subsection.83}
-\contentsline {section}{\numberline {5.3}Confusion Matrix: }{24}{section.84}
-\contentsline {subsection}{\numberline {5.3.1}Classification Rate/Accuracy:}{25}{subsection.86}
-\contentsline {subsection}{\numberline {5.3.2}Recall: }{26}{subsection.87}
-\contentsline {subsection}{\numberline {5.3.3}Precision: }{26}{subsection.88}
-\contentsline {subsection}{\numberline {5.3.4}F Measure: }{26}{subsection.89}
-\contentsline {section}{\numberline {5.4}Performance Metrices: }{27}{section.90}
+\contentsline {subsection}{\numberline {4.9.2}Adadelta: }{21}{subsection.72}
+\contentsline {paragraph}{}{21}{section*.73}
+\contentsline {subsection}{\numberline {4.9.3}Adam: }{21}{subsection.74}
+\contentsline {paragraph}{}{21}{section*.75}
+\contentsline {subsection}{\numberline {4.9.4}SGD: }{21}{subsection.76}
+\contentsline {chapter}{\numberline {5}Environment Setup And Performance Metrices}{23}{chapter.77}
+\contentsline {section}{\numberline {5.1}Dataset: }{23}{section.78}
+\contentsline {section}{\numberline {5.2}Environment: }{24}{section.79}
+\contentsline {subsection}{\numberline {5.2.1}Jupyter Notebook: }{24}{subsection.80}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Components: }{24}{subsubsection.81}
+\contentsline {subsection}{\numberline {5.2.2}Operating System: }{24}{subsection.82}
+\contentsline {section}{\numberline {5.3}Confusion Matrix: }{24}{section.83}
+\contentsline {subsection}{\numberline {5.3.1}Classification Rate/Accuracy:}{25}{subsection.85}
+\contentsline {subsection}{\numberline {5.3.2}Recall: }{26}{subsection.86}
+\contentsline {subsection}{\numberline {5.3.3}Precision: }{26}{subsection.87}
+\contentsline {subsection}{\numberline {5.3.4}F-Measure: }{26}{subsection.88}
+\contentsline {section}{\numberline {5.4}Performance Metrices: }{27}{section.89}
+\contentsline {paragraph}{}{27}{section*.91}
 \contentsline {chapter}{\numberline {6}Result Discussion}{31}{chapter.108}
 \contentsline {section}{\numberline {6.1}Performance Comparisons}{31}{section.109}

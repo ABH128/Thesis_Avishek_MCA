@@ -260,6 +260,7 @@ by \par
 {\bfseries
 Under the supervision of \par
 \supname \par
+Assistant Professor
 }
 \vfill
 \includegraphics[height=4cm]{logo.jpg}\par
